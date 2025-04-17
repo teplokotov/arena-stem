@@ -1,0 +1,7 @@
+.steps__number {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  color: var(--orange);
+}

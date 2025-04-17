@@ -1,0 +1,20 @@
+.tile__title {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  color: var(--dark-blue);
+}
+
+@media (max-width: 767px) {
+  .tile__title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .tile__title {
+    font-size: 25px;
+  }
+}

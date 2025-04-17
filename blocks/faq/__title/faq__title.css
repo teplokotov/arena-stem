@@ -1,0 +1,28 @@
+.faq__title {
+  margin: 0;
+  padding-top: 112px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: var(--dark-blue);
+}
+
+@media (max-width: 767px) {
+  .faq__title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .faq__title {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  .faq__title {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,30 @@
+.about-us__container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 100px 40px 0 40px;
+  width: 100%;
+  max-width: var(--max-width);
+  gap: 20px;
+}
+
+.event-info .about-us__container {
+  padding: 70px 40px 60px 40px;
+}
+
+@media (max-width: 1024px) {
+  .about-us__container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 425px) {
+  .about-us__container {
+    padding: 50px 20px 0 20px;
+  }
+
+  .event-info .about-us__container {
+    padding: 50px 20px;
+  }
+}

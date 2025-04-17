@@ -1,0 +1,13 @@
+.programs-and-courses__container {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 70px 40px;
+  width: 100%;
+  max-width: var(--max-width);
+}
+
+@media (max-width: 425px) {
+  .programs-and-courses__container {
+    padding: 50px 20px;
+  }
+}

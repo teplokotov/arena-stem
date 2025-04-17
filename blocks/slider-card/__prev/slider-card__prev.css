@@ -1,0 +1,20 @@
+.slider-card__prev {
+  width: 48px;
+  height: 48px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.slider-card__prev:hover {
+  opacity: 0.9;
+}
+
+.slider-card__prev::after {
+  content: '';
+  width: 48px;
+  height: 48px;
+  background-image: url('../../../images/button_left.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

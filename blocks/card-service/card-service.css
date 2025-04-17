@@ -1,0 +1,10 @@
+.card-service {
+  grid-area: service;
+  border-radius: 10px;
+  background-color: var(--white);
+  padding: 30px;
+  background-image: url(../../images/curve_6.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}

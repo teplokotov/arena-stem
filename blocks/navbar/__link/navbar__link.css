@@ -1,0 +1,35 @@
+.navbar__link {
+  display: flex;
+  align-items: center;
+  height: 72px;
+  white-space: nowrap;
+  font-family: var(--font-family);
+  text-decoration: none;
+  color: var(--black);
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.navbar__link:hover {
+  opacity: 0.7;
+}
+
+.navbar__item_has-dropdown > .navbar__link {
+  position: relative;
+  padding-right: 28px;
+  background-image: url('../../../images/arrow_down.svg');
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  background-position: right 0 top 50%;
+}
+
+.sidebar_opened .navbar__link {
+  height: auto;
+  font-weight: 600;
+  color: var(--dark-blue);
+}
+
+.navbar__item_more .navbar__item .navbar__link{
+  height: auto;
+}

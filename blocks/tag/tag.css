@@ -1,0 +1,15 @@
+.tag {
+  border-radius: 20px;
+  padding: 0 12px;
+  height: 32px;
+  width: fit-content;
+  background-color: var(--orange);
+  color: var(--white);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}

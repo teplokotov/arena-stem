@@ -1,0 +1,13 @@
+.steps {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px 20px;
+}
+
+.features .steps {
+  gap: 40px 48px;
+}

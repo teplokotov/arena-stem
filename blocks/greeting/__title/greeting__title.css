@@ -1,0 +1,22 @@
+.greeting__title {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  color: var(--dark-blue);
+  width: 100%;
+  max-width: 629px;
+}
+
+@media (max-width: 767px) {
+  .greeting__title {
+      font-size: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .greeting__title {
+      font-size: 25px;
+  }
+}

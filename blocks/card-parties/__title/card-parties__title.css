@@ -1,0 +1,16 @@
+.card-parties__title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: var(--white);
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width: 530px) {
+  .card-parties__title {
+    font-size: 26px;
+  }
+}

@@ -1,0 +1,8 @@
+.navbar-rightside__button_filled {
+  color: var(--white);
+  background-color: var(--dark-blue);
+}
+
+.navbar-rightside__button_filled:hover {
+  opacity: 0.9;
+}

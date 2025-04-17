@@ -1,0 +1,19 @@
+.navbar-rightside__button {
+  display: flex;
+  align-items: center;
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 150%;
+  text-decoration: none;
+  color: var(--dark-blue);
+  border: 1px solid var(--dark-blue);
+  border-radius: 100px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  height: 40px;
+  white-space: nowrap;
+}
+
+.navbar-rightside__button:hover {
+  opacity: 0.8;
+}

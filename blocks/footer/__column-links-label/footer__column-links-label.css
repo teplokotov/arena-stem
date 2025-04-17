@@ -1,0 +1,8 @@
+.footer__column-links-label {
+  display: block;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--white);
+}

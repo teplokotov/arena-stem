@@ -1,0 +1,22 @@
+.stem-explorer__title {
+  margin: 0;
+  padding-top: 16px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: var(--dark-blue);
+}
+
+@media (max-width: 767px) {
+  .stem-explorer__title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .stem-explorer__title {
+    font-size: 25px;
+  }
+}

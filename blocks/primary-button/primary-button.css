@@ -1,0 +1,24 @@
+.primary-button {
+  border: none;
+  border-radius: 30px;
+  padding: 0 24px;
+  height: 48px;
+  background-color: var(--dark-blue);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--white);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+  min-width: 200px;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  opacity: 0.9;
+}

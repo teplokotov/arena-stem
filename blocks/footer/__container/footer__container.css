@@ -1,0 +1,17 @@
+.footer__container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;
+  max-width: calc(var(--max-width) - 80px);
+  display: grid;
+  grid-template-areas:
+    "leftside rightside"
+    "bottom bottom";
+  grid-template-columns: auto 90px;
+}
+
+@media (max-width: 1336px) {
+  .footer__container {
+    grid-template-columns: auto 0;
+  }
+}

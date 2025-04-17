@@ -1,0 +1,12 @@
+.cta {
+  box-sizing: border-box;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 40px 70px 40px;
+}
+
+@media (max-width: 425px) {
+  .cta {
+    padding: 0 20px 50px 20px;
+  }
+}

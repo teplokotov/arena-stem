@@ -1,0 +1,15 @@
+.steps__description {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--dark-gray);
+}
+
+.features .steps__description {
+  text-align: left;
+  list-style: disc;
+  padding-left: 16px;
+}

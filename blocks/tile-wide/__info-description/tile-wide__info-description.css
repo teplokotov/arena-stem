@@ -1,0 +1,9 @@
+.tile-wide__info-description {
+  margin: 0;
+  padding-top: 10px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--dark-gray);
+}

@@ -1,0 +1,20 @@
+.testimonials__header-title {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 120%;
+  color: var(--darker-gray);
+}
+
+@media (max-width: 767px) {
+  .testimonials__header-title {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 425px) {
+  .testimonials__header-title {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,20 @@
+.rating__star {
+  width: 26px;
+  height: 26px;
+  background-image: url('../../../images/star.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+@media (max-width: 425px) {
+  .rating__star {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.testimonials__heading .rating__star {
+  width: 20px;
+  height: 20px;
+}

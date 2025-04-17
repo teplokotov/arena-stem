@@ -1,0 +1,19 @@
+.rating__value {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 150%;
+  color: var(--darker-gray);
+}
+
+@media (max-width: 767px) {
+  .rating__value {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 425px) {
+  .rating__value {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,19 @@
+.steps__item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+  min-width: 304px;
+}
+
+.features .steps__item {
+  align-items: flex-start;
+}
+
+@media (max-width: 375px) {
+  .steps__item {
+    min-width: 150px;
+  }
+}

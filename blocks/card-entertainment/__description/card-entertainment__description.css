@@ -1,0 +1,12 @@
+.card-entertainment__description {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--white);
+  padding-top: 8px;
+  margin: 0;
+  max-width: 267px;
+  position: relative;
+  z-index: 2;
+}

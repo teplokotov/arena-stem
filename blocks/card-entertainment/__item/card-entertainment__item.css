@@ -1,0 +1,18 @@
+.card-entertainment__item {
+  position: relative;
+  padding-left: 32px;
+}
+
+.card-entertainment__item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  background-image: url(../../../images/check_white.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

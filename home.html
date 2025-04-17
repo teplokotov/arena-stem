@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link href="./scripts/common/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="./scripts/common/swiper/swiper-bundle.min.js"></script>
+
+  <script src="./scripts/home.js" type="module"></script>
+  <script src="./scripts/common/subscribeValidator.js" type="module"></script>
+  <script src="./scripts/common/accordion.js" type="module"></script>
+  <script src="./scripts/common/menu.js" type="module"></script>
+
+  <link href="./pages/home.css" rel="stylesheet">
+</head>
+<body class="body">
+  <header class="header">
+    <div class="header__container">
+      <div class="header__leftside">
+        <div class="header__logo logo"></div>
+        <ul class="header__navbar navbar">
+          <li class="navbar__item navbar__item_has-dropdown">
+            <a class="navbar__link" href="#">Education</a>
+            <ul class="navbar__dropdown">
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">STEM Explorer Program</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Lego Building & Coding</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Financial Literacy and Success</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Chess</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Young Engineers</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Math in STEM</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Afterschool</a>
+              </li>
+            </ul>
+          </li>
+          <li class="navbar__item navbar__item_has-dropdown">
+            <a class="navbar__link" href="#">Entertainment</a>
+            <ul class="navbar__dropdown">
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Entertainment Arena</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Events and Challenges</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Summer Camp</a>
+              </li>
+            </ul>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Birthday Parties</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">For Schools</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Pricing</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Contact Us</a>
+          </li>
+          <li class="navbar__item navbar__item_more navbar__item_has-dropdown" hidden>
+            <a class="navbar__link" href="#">More</a>
+            <ul class="navbar__dropdown navbar__dropdown_more"></ul>
+          </li>
+        </ul>
+      </div>
+      <ul class="header__rightside navbar-rightside">
+        <li class="navbar-rightside__item">
+          <a class="navbar-rightside__link" href="#">Log in</a>
+        </li>
+        <li class="navbar-rightside__item">
+          <a class="navbar-rightside__button" href="#">Inquire</a>
+        </li>
+        <li class="navbar-rightside__item">
+          <a class="navbar-rightside__button navbar-rightside__button_filled" href="#">Enroll</a>
+        </li>
+      </ul>
+      <div class="header__burger-menu burger-menu">
+        <div class="burger-menu__line"></div>
+        <div class="burger-menu__line"></div>
+        <div class="burger-menu__line"></div>
+      </div>
+    </div>
+    <div class="sidebar">
+      <nav class="sidebar__content"></nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="hero__container">
+        <div class="hero__content">
+          <h1 class="hero__title">Arena STEM: Where Learning Meets Adventure</h1>
+          <p class="hero__description">Inspire kids to&nbsp;explore, create, and innovate through hands-on experiences in&nbsp;science, technology, engineering, and math.</p>
+          <ul class="hero__actions actions">
+            <li class="actions__item">
+              <a class="actions__button-orange button-orange button-orange_filled" href="#">Book a free trial class</a>
+            </li>
+            <li class="actions__item">
+              <a class="actions__button-orange button-orange" href="#">Inquire</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <video class="hero__video" autoplay loop muted playsinline>
+        <source src="./media/video.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    </section>
+    <section class="what-we-offer">
+      <div class="what-we-offer__container">
+        <span class="what-we-offer__tag tag">What we offer</span>
+        <h2 class="what-we-offer__title">Fueling Curiosity, Building Futures</h2>
+        <div class="what-we-offer__cards cards">
+          <div class="cards__card-academy card-academy">
+            <h3 class="card-academy__title">Education Academy</h3>
+            <p class="card-academy__description">Exciting Weekly Classes for Young Innovators covering <b>Topics that all kids love:</b></p>
+            <div class="card-academy__list-container">
+              <ul class="card-academy__list">
+                <li class="card-academy__item">Drone Dynamics</li>
+                <li class="card-academy__item">Engineering Wizards</li>
+                <li class="card-academy__item">3D Printing</li>
+                <li class="card-academy__item">Superhero Chemistry</li>
+                <li class="card-academy__item">Game Design</li>
+              </ul>
+              <ul class="card-academy__list">
+                <li class="card-academy__item">Robots A2Z</li>
+                <li class="card-academy__item">Volts Voyage Basics</li>
+                <li class="card-academy__item">AI Journey</li>
+                <li class="card-academy__item">Lego Building & Coding</li>
+                <li class="card-academy__item">Scratch Coding Cat</li>
+              </ul>
+            </div>
+            <a class="card-academy__button-with-arrow button-with-arrow button-with-arrow_filled" href="#">View Courses</a>
+          </div>
+          <div class="cards__card-entertainment card-entertainment">
+            <h3 class="card-entertainment__title">Entertainment Arena</h3>
+            <p class="card-entertainment__description">Embark on the journey of endless excitement, where young minds can explore different activities:</p>
+            <ul class="card-entertainment__list">
+              <li class="card-entertainment__item">Immerse into VR</li>
+              <li class="card-entertainment__item">Craft LEGO creations</li>
+              <li class="card-entertainment__item">Pilot drones</li>
+              <li class="card-entertainment__item">Design self-built racing car tracks</li>
+              <li class="card-entertainment__item">Explore, invent, learn and so much more!</li>
+            </ul>
+            <a class="card-entertainment__button-with-arrow button-with-arrow button-with-arrow_clear" href="#">Learn More</a>
+          </div>
+          <div class="cards__card-camp card-parties">
+            <h3 class="card-parties__title">Birthday Parties</h3>
+            <p class="card-parties__description">Amazing birthday parties unlike any other place! We blend education and entertainment, offering a unique and interactive experience for kids of all ages. All parties are private, personalized and every detail is taken care of, so you can enjoy the celebration worry-free.</p>
+            <a class="card-parties__button-with-arrow button-with-arrow button-with-arrow_clear" href="#">Learn More</a>
+          </div>
+          <div class="cards__card-school card-school">
+            <div class="card-school__content">
+              <h3 class="card-school__title">School Trips, Youth Events</h3>
+              <p class="card-school__description">Tailored field trips designed to ignite curiosity and passion for STEM. We host school trips, Boys/Girl Scouts, youth activities, and various other gatherings. Every visit is fun and made just for you. </p>
+              <a class="card-school__button-with-arrow button-with-arrow button-with-arrow_filled" href="#">Learn More</a>
+            </div>
+            <div class="card-school__photo">
+              <span class="card-school__photo-tag tag">For Schools</span>
+            </div>
+          </div>
+          <div class="cards__card-camp card-camp">
+            <h3 class="card-camp__title">Summer Camp</h3>
+            <p class="card-camp__description">Where Fun and Learning Collide!<br>Join&nbsp;us for an&nbsp;unforgettable summer filled<br>with hands-on STEM activities and adventures.</p>
+            <a class="card-camp__button-with-arrow button-with-arrow button-with-arrow_filled" href="#">Learn More</a>
+          </div>
+          <div class="cards__card-camp card-service">
+            <h3 class="card-service__title">Afterschool Service</h3>
+            <p class="card-service__description">Combine education with entertainment.<br>We&nbsp;provide support with homework and offer safe transportation to&nbsp;and from our programs.</p>
+            <a class="card-service__button-with-arrow button-with-arrow button-with-arrow_filled" href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-us">
+      <div class="about-us__container">
+        <div class="about-us__text-card text-card">
+          <span class="text-card__tag tag">About Us</span>
+          <h2 class="text-card__title">Making STEM Accessible, Engaging, and Fun for&nbsp;Every Child</h2>
+          <div class="text-card__description">
+            <p>Arena STEM — an innovative Education & Entertainment destination.</p>
+            <p>Guided by our shared belief that our children need to prepare for an evolving world - our small team has set out to build a destination where education and innovation intertwine, fostering a love for learning and technology that extends far beyond the classroom.</p>
+            <p>Join us as we go beyond STEM education and build the Home of Future Innovators.</p>
+            <p>At Arena STEM, our mission is to ignite curiosity and creativity in children by providing engaging, hands-on experiences in science, technology, engineering, and math. We believe that learning should be an adventure, where kids can explore their interests and develop essential skills for the future.</p>
+          </div>
+        </div>
+        <div class="about-us__slider-card slider-card swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="slider-card__image" src="./images/droid.jpg" alt="Slide 1">
+            </div>
+            <div class="swiper-slide">
+              <img class="slider-card__image" src="./images/droid.jpg" alt="Slide 2">
+            </div>
+            <div class="swiper-slide">
+              <img class="slider-card__image" src="./images/droid.jpg" alt="Slide 3">
+            </div>
+          </div>
+          <div class="swiper-button-next slider-card__next"></div>
+          <div class="swiper-button-prev slider-card__prev"></div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials">
+      <div class="testimonials__container">
+        <span class="testimonials__tag tag">Testimonials</span>
+        <h2 class="testimonials__title">Why Parents and Kids Love Arena STEM</h2>
+        <div class="testimonials__header">
+          <h4 class="testimonials__header-title">Arena STEM Pennsylvania</h4>
+          <div class="testimonials__rating rating">
+            <span class="rating__value">5,0</span>
+            <span class="rating__stars">
+              <span class="rating__star"></span>
+              <span class="rating__star"></span>
+              <span class="rating__star"></span>
+              <span class="rating__star"></span>
+              <span class="rating__star"></span>
+            </span>
+            <span class="rating__count">(42)</span>
+          </div>
+        </div>
+        <div class="testimonials__slider">
+          <div class="testimonials__prev"></div>
+          <div class="testimonials__slider-review-cards review-cards swiper">
+            <div class="swiper-wrapper">
+              <article itemscope itemtype="https://schema.org/Review" class="swiper-slide review-card">
+                <header class="testimonials__heading">
+                  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <span itemprop="name" class="review-card__author">Liz Magliaro</span>
+                  </span>
+                  <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating" class="rating">
+                    <meta itemprop="bestRating" content="5">
+                    <span class="rating__stars">
+                      <span class="rating__star"></span>
+                      <span class="rating__star"></span>
+                      <span class="rating__star"></span>
+                      <span class="rating__star"></span>
+                      <span class="rating__star"></span>
+                    </span>
+                  </span>
+                </header>
+                <p itemprop="reviewBody" class="review-card__review">
+                  We had a fantastic time at our son’s 4th birthday party! Thank you Arena STEM! We loved that we were able to customize the party with different activities and that we were permitted to decorate the space to match our party theme. The VR, Robot, and Glow in the Dark dance party were big hits!
+                </p>
+                <time datetime="2025-04-07" itemprop="datePublished" class="review-card__date">Yesterday</time>
+              </article>
+              <article itemscope itemtype="https://schema.org/Review" class="swiper-slide review-card">
+                <header class="testimonials__heading">
+                  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <span itemprop="name" class="review-card__author">Тая Меерович</span>
+                  </span>
+                  <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating" class="rating">
+                    <meta itemprop="bestRating" content="5">
+                    <span class="rating__stars">
+                      <span class="rating__star"></span>
+                      <span class="rating__star"></span>
+                      <span class="rating__star"></span>
+                      <span class="rating__star"></span>
+                      <span class="rating__star rating__star_half"></span>
+                    </span>
+                  </span>
+                </header>
+                <p itemprop="reviewBody" class="review-card__review">
+                  We recently celebrated our daughter’s birthday at Arena, and it was simply an amazing experience! Everything was organized at the highest level, from the decoration of the hall to the exciting program. The kids were thrilled with the variety of activities – they enjoyed playing with LEGO, trying out robot controls, and even competing in video games.
+                </p>
+                <time datetime="2025-04-07" itemprop="datePublished" class="review-card__date">Week ago</time>
+              </article>
+              <article itemscope itemtype="https://schema.org/Review" class="swiper-slide review-card">
+                <header class="testimonials__heading">
+                  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <span itemprop="name" class="review-card__author">samantha g</span>
+                  </span>
+                  <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating" class="rating">
+                    <meta itemprop="bestRating" content="5">
+                    <span class="rating__stars">
+                      <span class="rating__star"></span>
+                      <span class="rating__star"></span>
+                      <span class="rating__star"></span>
+                      <span class="rating__star rating__star_half"></span>
+                      <span class="rating__star rating__star_empty"></span>
+                    </span>
+                  </span>
+                </header>
+                <p itemprop="reviewBody" class="review-card__review">
+                  I had my daughter’s birthday party here today and everyone loved it, adults too! It was such a blast. There is a lot of activities and keeps the kids very busy. We added the robot & dance party and the kids loved both! I highly recommend!! Thank you to the staff, you were all wonderful!
+                </p>
+                <time datetime="2025-04-07" itemprop="datePublished" class="review-card__date">5 months ago</time>
+              </article>
+              <article itemscope itemtype="https://schema.org/Review" class="swiper-slide review-card">
+                <header class="testimonials__heading">
+                  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <span itemprop="name" class="review-card__author">Liz Magliaro</span>
+                  </span>
+                  <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating" class="rating">
+                    <meta itemprop="bestRating" content="5">
+                    <span class="rating__stars">
+                      <span class="rating__star"></span>
+                      <span class="rating__star"></span>
+                      <span class="rating__star"></span>
+                      <span class="rating__star rating__star_half"></span>
+                      <span class="rating__star rating__star_empty"></span>
+                    </span>
+                  </span>
+                </header>
+                <p itemprop="reviewBody" class="review-card__review">
+                  We had a fantastic time at our son’s 4th birthday party! Thank you Arena STEM! We loved that we were able to customize the party with different activities and that we were permitted to decorate the space to match our party theme. The VR, Robot, and Glow in the Dark dance party were big hits!
+                </p>
+                <time datetime="2025-04-07" itemprop="datePublished" class="review-card__date">Yesterday</time>
+              </article>
+              <article itemscope itemtype="https://schema.org/Review" class="swiper-slide review-card">
+                <header class="testimonials__heading">
+                  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <span itemprop="name" class="review-card__author">Тая Меерович</span>
+                  </span>
+                  <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating" class="rating">
+                    <meta itemprop="bestRating" content="5">
+                    <span class="rating__stars">
+                      <span class="rating__star"></span>
+                      <span class="rating__star"></span>
+                      <span class="rating__star"></span>
+                      <span class="rating__star"></span>
+                      <span class="rating__star"></span>
+                    </span>
+                  </span>
+                </header>
+                <p itemprop="reviewBody" class="review-card__review">
+                  We recently celebrated our daughter’s birthday at Arena, and it was simply an amazing experience! Everything was organized at the highest level, from the decoration of the hall to the exciting program. The kids were thrilled with the variety of activities – they enjoyed playing with LEGO, trying out robot controls, and even competing in video games.
+                </p>
+                <time datetime="2025-04-07" itemprop="datePublished" class="review-card__date">Week ago</time>
+              </article>
+              <article itemscope itemtype="https://schema.org/Review" class="swiper-slide review-card">
+                <header class="testimonials__heading">
+                  <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <span itemprop="name" class="review-card__author">samantha g</span>
+                  </span>
+                  <span itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating" class="rating">
+                    <meta itemprop="bestRating" content="5">
+                    <span class="rating__stars">
+                      <span class="rating__star"></span>
+                      <span class="rating__star"></span>
+                      <span class="rating__star"></span>
+                      <span class="rating__star"></span>
+                      <span class="rating__star"></span>
+                    </span>
+                  </span>
+                </header>
+                <p itemprop="reviewBody" class="review-card__review">
+                  I had my daughter’s birthday party here today and everyone loved it, adults too! It was such a blast. There is a lot of activities and keeps the kids very busy. We added the robot & dance party and the kids loved both! I highly recommend!! Thank you to the staff, you were all wonderful!
+                </p>
+                <time datetime="2025-04-07" itemprop="datePublished" class="review-card__date">5 months ago</time>
+              </article>
+            </div>
+          </div>
+          <div class="testimonials__next"></div>
+        </div>
+        <div class="swiper-pagination testimonials__pagination"></div>
+      </div>
+    </section>
+    <section class="events">
+      <div class="events__container">
+        <span class="events__tag tag">Events</span>
+        <h2 class="events__title">Our next STEM Events and Challenges</h2>
+        <ul class="events__list">
+          <li class="events__list-item event-card">
+            <div class="event-card__image">
+              <img src="./images/photo_1.png" alt="Family Quiz Game">
+            </div>
+            <div class="event-card__body">
+              <span class="events__tag tag tag_small">Fri 09 Feb</span>
+              <h3 class="event-card__title">Family Quiz Game</h3>
+              <p class="event-card__description">A fun and competitive game - a totally different experience for the whole family.</p>
+              <a class="event-card__button-with-arrow button-with-arrow button-with-arrow_clear-blue" href="#">View event</a>
+            </div>
+          </li>
+          <li class="events__list-item event-card">
+            <div class="event-card__image">
+              <img src="./images/photo_2.png" alt="Chess Tournament">
+            </div>
+            <div class="event-card__body">
+              <span class="events__tag tag tag_small">Sat 10 Feb</span>
+              <h3 class="event-card__title">Chess Tournament</h3>
+              <p class="event-card__description">Join us for an amazing Chess Tournament!  Open to kids and adults of all ages and skill levels.</p>
+              <a class="event-card__button-with-arrow button-with-arrow button-with-arrow_clear-blue" href="#">View event</a>
+            </div>
+          </li>
+          <li class="events__list-item event-card">
+            <div class="event-card__image">
+              <img src="./images/photo_3.png" alt="Chess Tournament">
+            </div>
+            <div class="event-card__body">
+              <span class="events__tag tag tag_small">Sun 11 Feb</span>
+              <h3 class="event-card__title">Summer Camp 2025</h3>
+              <p class="event-card__description">A fun-filled camp where kids explore science and technology through hands-on activities.</p>
+              <a class="event-card__button-with-arrow button-with-arrow button-with-arrow_clear-blue" href="#">View event</a>
+            </div>
+          </li>
+        </ul>
+        <a class="events__primary-button primary-button" href="#">View all</a>
+      </div>
+    </section>
+    <section class="subscribe">
+      <div class="subscribe__container">
+        <h2 class="subscribe__title">Stay in the Loop with STEM!</h2>
+        <p class="subscribe__description">Be&nbsp;the first to&nbsp;know about new programs, exciting events, and special offers.<br>Subscribe to&nbsp;our newsletter and never miss an&nbsp;opportunity to&nbsp;spark your child&rsquo;s curiosity!</p>
+        <form class="subscribe__form" id="subscribeForm">
+          <div class="subscribe__form-input-container">
+            <input
+              class="subscribe__form-input"
+              type="text"
+              id="emailInput"
+              name="email"
+              placeholder="Enter your email"
+            >
+            <div id="errorMessage" class="subscribe__error-message"></div>
+          </div>
+          <button class="subscribe__form-button primary-button" type="submit">Subscribe</button>
+        </form>
+        <p class="subscribe__terms">By subscribing you agree to with our <a class="subscribe__terms-link" href="#">Privacy Policy.</a></p>
+      </div>
+    </section>
+    <section class="faq">
+      <div class="faq__container">
+        <h2 class="faq__title">FAQs</h2>
+        <p class="faq__description">Find answers to your questions about our programs, schedules, and enrollment process.</p>
+        <div class="faq__accordion">
+          <div class="faq__accordion-item accordion-item">
+            <div class="accordion-item__header">Is Arena STEM for education or entertainment?</div>
+            <div class="accordion-item__content">
+              <p>Both! We are a one-of-a-kind facility where kids and families come for STEM educational programs and also hands-on play in our 3,000+ sq foot Arena with the latest technology and real sized Robots!</p>
+              <p>We also do birthdays, events, and school trips!</p>
+            </div>
+          </div>
+          <div class="faq__accordion-item accordion-item">
+            <div class="accordion-item__header">Can I bring my children just to play?</div>
+            <div class="accordion-item__content">
+              <p>Yes, drop in 5PM to 8 PM weekdays to play in our Arena. It costs $15/child/hour. You can also buy our monthly access membership (month-to-month, no commitments) and have unlimited access!</p>
+            </div>
+          </div>
+          <div class="faq__accordion-item accordion-item">
+            <div class="accordion-item__header">What does the monthly access include? How much is it?</div>
+            <div class="accordion-item__content">
+              <p>The monthly membership includes many awesome perks for just $169/month! Please check our Pricing page for details. But the main benefit of a monthly access is:</p>
+              <ul>
+                <li>One STEM class per week (your choice), followed by playtime in Arena.</li>
+                <li>Unlimited access to the Arena for playtime on any other day.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="faq__accordion-item accordion-item">
+            <div class="accordion-item__header">What STEM classes do you offer?</div>
+            <div class="accordion-item__content">
+              <p>We offer a variety of STEM-related classes. The most popular is our proprietary Roadmap Program, where we cover a new STEM topic every 3 weeks. We usually start this program for kids 7 years and older. Younger kids can start with our Lego Robotics classes. Please review all our amazing classes on Education page.</p>
+            </div>
+          </div>
+          <div class="faq__accordion-item accordion-item">
+            <div class="accordion-item__header">How long is each class? When do they start?</div>
+            <div class="accordion-item__content">
+              <p>Each class runs for approximately 1 hour, and it is followed by 1 hour of playtime in our open arena. Kids will spend at least 2 hours with us per evening. All classes start at either 5PM or 6 PM every day, and you can do 1 hour of arena playtime before or after class. We also offer Saturday classes.</p>
+            </div>
+          </div>
+          <div class="faq__accordion-item accordion-item">
+            <div class="accordion-item__header">Can my child play in the arena even on days they don't have class?</div>
+            <div class="accordion-item__content">
+              <p>Yes, with a monthly access membership, your child can come and enjoy the arena on any day, even if they don't have a class scheduled.</p>
+            </div>
+          </div>
+          <div class="faq__accordion-item accordion-item">
+            <div class="accordion-item__header">How do I sign up for a membership?</div>
+            <div class="accordion-item__content">
+              <p>You can sign up for a monthly membership through our Pricing page. We only have 50 spots available.</p>
+            </div>
+          </div>
+          <div class="faq__accordion-item accordion-item">
+            <div class="accordion-item__header">Is there a limit to how many classes my child can attend each week?</div>
+            <div class="accordion-item__content">
+              <p>The monthly membership includes access to one class per week. If you would like your child to attend more than one class per week, please contact us for additional options.</p>
+            </div>
+          </div>
+          <div class="faq__accordion-item accordion-item">
+            <div class="accordion-item__header">Can I cancel my monthly membership at any time?</div>
+            <div class="accordion-item__content">
+              <p>Yes, you can cancel your membership at any time. There is no long term commitment. Please note that refunds may not be available for partial months.</p>
+            </div>
+          </div>
+          <div class="faq__accordion-item accordion-item">
+            <div class="accordion-item__header">Do you offer trial classes?</div>
+            <div class="accordion-item__content">
+              <p>Yes, our first class is always free. It’s a great way to check out the facility and try our classes. Please contact us to schedule a trial session for your child.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cta">
+      <div class="cta__container">
+        <h2 class="cta__title">Engage in&nbsp;STEM Adventures!<br>Discover, Learn and Create at&nbsp;Arena STEM</h2>
+        <p class="cta__description">Unlock your child&rsquo;s potential with hands-on STEM classes. Book their first class now!</p>
+        <div class="cta__actions">
+          <a class="cta__primary-button primary-button" href="#">Book a free trial class</a>
+          <a class="cta__primary-button primary-button primary-button_clear" href="#">Inquire</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__leftside">
+        <div class="footer__logo"></div>
+        <nav class="footer__columns">
+          <div class="footer__column">
+            <h4 class="footer__column-title">Education</h4>
+            <ul class="footer__column-links">
+              <li>
+                <a class="footer__column-link" href="#">STEM Explorer Program</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Lego Building & Coding</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Financial Literacy</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Chess</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Young Engineers</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Math in STEM</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Afterschool</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h4 class="footer__column-title">Entertainment</h4>
+            <ul class="footer__column-links">
+              <li>
+                <a class="footer__column-link" href="#">Entertainment Arena</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Events and Challenges</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Birthday Parties</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Summer Camp</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">School Trips & Youth Events</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h4 class="footer__column-title">About Us</h4>
+            <ul class="footer__column-links">
+              <li>
+                <a class="footer__column-link" href="#">About Arena STEM</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Pricing</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Testimonials</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Contacts</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Careers</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Gift Cards</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h4 class="footer__column-title">Contact Us</h4>
+            <ul class="footer__column-links">
+              <li>
+                <span class="footer__column-links-label">Call Today</span>
+                <a href="tel:2673417176" class="footer__column-link">(267) 341-7176</a>
+              </li>
+              <li>
+                <span class="footer__column-links-label">Email Us</span>
+                <a href="mailto:hello@arenastemPA.com" class="footer__column-link">hello@arenastemPA.com</a>
+              </li>
+              <li>
+                <span class="footer__column-links-label">Location</span>
+                <a href="https://maps.app.goo.gl/4XrEkTyfEcR9T15j6" target="_blank" class="footer__column-link">950 Industrial Blvd, Southampton, PA</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <ul class="footer__rightside">
+        <li>
+          <a class="footer__rightside-link" href="https://www.facebook.com/profile.php?id=61551064730046" target="_blank">
+            <img src="./images/Facebook.svg" alt="Facebook icon" class="footer__rightside-icon">
+          </a>
+        </li>
+        <li>
+          <a class="footer__rightside-link" href="https://www.instagram.com/arenastem_pa/" target="_blank">
+            <img src="./images/Instagram.svg" alt="Instagram icon" class="footer__rightside-icon">
+          </a>
+        </li>
+      </ul>
+      <ul class="footer__bottom">
+        <li>
+          <p class="footer__bottom-title">© 2024 Arena STEM. All rights reserved.</p>
+        </li>
+        <li>
+          <a class="footer__bottom-link" href="#">Privacy Policy</a>
+        </li>
+        <li>
+          <a class="footer__bottom-link" href="#">Terms &amp;&nbsp;Conditions</a>
+        </li>
+        <li>
+          <a class="footer__bottom-link" href="#">Waiver</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

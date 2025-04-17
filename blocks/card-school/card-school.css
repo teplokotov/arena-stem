@@ -1,0 +1,15 @@
+.card-school {
+  grid-area: school;
+  border-radius: 10px;
+  background-color: var(--white);
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 20px;
+  background-image: url(../../images/curve_4.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

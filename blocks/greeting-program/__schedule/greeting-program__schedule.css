@@ -1,0 +1,9 @@
+.greeting-program__schedule {
+  margin-top: 30px;
+}
+
+@media (max-width: 766px) {
+  .greeting-program__schedule {
+    align-self: flex-end;
+  }
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>List of pages</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+    :root {
+      --primary-color: #4f46e5;
+      --secondary-color: #10b981;
+      --dark-color: #1e293b;
+      --light-color: #f8fafc;
+      --hover-color: #6366f1;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f1f5f9;
+      color: var(--dark-color);
+      line-height: 1.6;
+      padding: 2rem;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 800px;
+      width: 100%;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      padding: 2.5rem;
+      margin: 2rem auto;
+    }
+
+    h1 {
+      color: var(--primary-color);
+      text-align: center;
+      margin-bottom: 2rem;
+      font-weight: 600;
+      font-size: 2.2rem;
+      position: relative;
+      padding-bottom: 0.5rem;
+    }
+
+    h1::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 4px;
+      background: var(--secondary-color);
+      border-radius: 2px;
+    }
+
+    ul {
+      list-style: none;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+
+    li {
+      transition: transform 0.3s ease;
+    }
+
+    li:hover {
+      transform: translateY(-3px);
+    }
+
+    a {
+      display: block;
+      padding: 1rem 1.5rem;
+      background: var(--light-color);
+      color: var(--dark-color);
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 400;
+      transition: all 0.3s ease;
+      border-left: 4px solid var(--primary-color);
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    }
+
+    a:hover {
+      transform: translateX(5px);
+      box-shadow: 0 5px 15px rgba(79, 70, 229, 0.3);
+    }
+
+    a::before {
+      content: attr(data-number);
+      display: inline-block;
+      margin-right: 0.8rem;
+      font-weight: 600;
+      color: inherit;
+    }
+
+    .link {
+      display: block;
+      padding: 0;
+      background: none;
+      text-decoration: none;
+      border-radius: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+      border-left: none;
+      box-shadow: none;
+      color: #4f46e5;
+    }
+
+    .link:hover {
+      transform: none;
+      box-shadow: none;
+      opacity: 0.7;
+    }
+
+    footer {
+      color: #64748b;
+      font-size: 0.9rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 4px;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 1rem;
+      }
+
+      .container {
+        padding: 1.5rem;
+      }
+
+      ul {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>List of Pages</h1>
+    <ul>
+      <li>
+        <a href="home.html" target="_blank" data-number="1)">Home</a>
+      </li>
+      <li>
+        <a href="programsAndCourses.html" target="_blank" data-number="2)">Programs & Courses</a>
+      </li>
+      <li>
+        <a href="stemExplorerProgram.html" target="_blank" data-number="3)">STEM Explorer Program</a>
+      </li>
+      <li>
+        <a href="legoBuildingAndCoding.html" target="_blank" data-number="4)">Lego Building & Coding</a>
+      </li>
+      <li>
+        <a href="financialLiteracyAndSuccess.html" target="_blank" data-number="5)">Financial Literacy and Success</a>
+      </li>
+      <li>
+        <a href="chessForKids.html" target="_blank" data-number="6)">Chess for Kids</a>
+      </li>
+      <li>
+        <a href="yangEngineers.html" target="_blank" data-number="7)">Young Engineers</a>
+      </li>
+      <li>
+        <a href="mathInStem.html" target="_blank" data-number="8)">Math in STEM</a>
+      </li>
+      <li>
+        <a href="entertainmentArena.html" target="_blank" data-number="9)">Entertainment Arena</a>
+      </li>
+      <li>
+        <a href="eventsAndChallenges.html" target="_blank" data-number="10)">Events and Challenges</a>
+      </li>
+      <li>
+        <a href="eventPage.html" target="_blank" data-number="11)">Event page</a>
+      </li>
+      <li>
+        <a href="schoolTripsAndYouthEvents.html" target="_blank" data-number="12)">School Trips and Youth Events</a>
+      </li>
+      <li>
+        <a href="pricing.html" target="_blank" data-number="13)">Pricing</a>
+      </li>
+      <li>
+        <a href="contactUs.html" target="_blank" data-number="14)">Contact Us</a>
+      </li>
+      <li>
+        <a href="pageWithFrame.html" target="_blank" data-number="15)">Page with frame</a>
+      </li>
+    </ul>
+  </div>
+  <footer>
+    <span>Philipp Dobrikov</span>
+    <a href="https://github.com/teplokotov" target="_blank" class="link">@teplokotov</a>
+  </footer>
+</body>
+</html>

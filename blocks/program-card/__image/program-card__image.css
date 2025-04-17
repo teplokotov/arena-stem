@@ -1,0 +1,17 @@
+.program-card__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.program-card__image img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  min-height: 350px;
+  max-height: 350px;
+  object-fit: cover;
+}

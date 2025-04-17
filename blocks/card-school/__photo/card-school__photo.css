@@ -1,0 +1,23 @@
+.card-school__photo {
+  height: 230px;
+  aspect-ratio: 1.8478;
+  border-radius: 8px;
+  grid-area: photo;
+  background-image: url('../../../images/forSchools.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 1440px) {
+  .card-school__photo {
+    width: 100%;
+    order: 1;
+  }
+}
+
+@media (max-width: 530px) {
+  .card-school__photo {
+    height: auto;
+  }
+}

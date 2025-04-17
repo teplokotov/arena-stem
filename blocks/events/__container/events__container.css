@@ -1,0 +1,24 @@
+.events__container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 74px 40px;
+  width: 100%;
+  max-width: var(--max-width);
+}
+
+.school-trips-page .events__container {
+   padding: 80px 40px 0 40px;
+}
+
+@media (max-width: 425px) {
+  .events__container {
+    padding: 50px 20px;
+  }
+
+  .school-trips-page .events__container {
+   padding: 50px 40px 0 40px;
+  }
+}

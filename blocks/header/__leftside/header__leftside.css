@@ -1,0 +1,13 @@
+.header__leftside {
+  padding-left: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+
+@media (max-width: 425px) {
+  .header__leftside {
+    padding-left: 20px;
+  }
+}

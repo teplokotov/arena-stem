@@ -1,0 +1,22 @@
+.cards {
+  display: grid;
+  grid-template-areas:
+        "academy academy entertainment"
+        "parties school school"
+        "parties camp service";
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 767px) {
+  .cards {
+    grid-template-areas:
+          "academy"
+          "entertainment"
+          "parties"
+          "school"
+          "camp"
+          "service";
+    grid-template-columns: 1fr;
+  }
+}

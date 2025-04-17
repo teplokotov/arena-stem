@@ -1,0 +1,9 @@
+.footer__column-title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--white);
+  margin: 0;
+  padding: 0;
+}

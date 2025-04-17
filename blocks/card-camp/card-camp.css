@@ -1,0 +1,10 @@
+.card-camp {
+  grid-area: camp;
+  border-radius: 10px;
+  background-color: var(--white);
+  padding: 30px;
+  background-image: url(../../images/curve_5.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}

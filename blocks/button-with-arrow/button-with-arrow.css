@@ -1,0 +1,35 @@
+.button-with-arrow {
+  position: relative;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 0 10px 0 16px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  box-sizing: border-box;
+  white-space: nowrap;
+  background: var(--dark-blue);
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--white);
+  width: fit-content;
+  z-index: 2;
+}
+
+.button-with-arrow:hover {
+  opacity: 0.9;
+}
+
+.button-with-arrow::after {
+  content: "";
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url('../../images/arrow_right.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

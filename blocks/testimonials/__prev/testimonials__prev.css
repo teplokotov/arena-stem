@@ -1,0 +1,21 @@
+.testimonials__prev {
+  display: block;
+  min-width: 48px;
+  width: 48px;
+  height: 48px;
+  background-image: url('../../../images/button_left.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.testimonials__prev:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 766px) {
+  .testimonials__prev {
+    display: none;
+  }
+}

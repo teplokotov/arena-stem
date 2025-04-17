@@ -1,0 +1,21 @@
+.subscribe__title {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: var(--white)
+}
+
+@media (max-width: 767px) {
+  .subscribe__title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .subscribe__title {
+    font-size: 25px;
+  }
+}

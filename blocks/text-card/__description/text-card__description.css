@@ -1,0 +1,22 @@
+.text-card__description {
+  padding-top: 24px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000;
+}
+
+.text-card__description p {
+  margin: 10px 0;
+}
+
+.text-card__description a:not(.button-with-arrow):not(.primary-button) {
+  color: var(--orange);
+  text-decoration: none;
+}
+
+.text-card__description a:not(.button-with-arrow):not(.primary-button):hover {
+  text-decoration: none;
+  opacity: 0.8;
+}

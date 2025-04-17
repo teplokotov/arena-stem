@@ -1,0 +1,26 @@
+.card-academy {
+  grid-area: academy;
+  border-radius: 10px;
+  background-color: var(--white);
+  padding: 30px;
+  position: relative;
+  background-image: url('../../images/curve_1.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+}
+
+.card-academy::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -78px;
+  bottom: 0;
+  width: 324px;
+  height: 301px;
+  background-image: url('../../images/robot.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: 1;
+}

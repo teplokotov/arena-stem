@@ -1,0 +1,6 @@
+.event-card {
+  border-radius: 20px;
+  box-shadow: 2px 4px 10px 0 rgba(48, 28, 51, 0.15);
+  background: var(--white);
+  overflow: hidden;
+}

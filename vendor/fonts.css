@@ -1,0 +1,55 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'Roboto';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./fonts/Roboto/Roboto-Regular.woff2) format("woff2"),
+       url(./fonts/Roboto/Roboto-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(./fonts/Roboto/Roboto-SemiBold.woff2) format("woff2"),
+       url(./fonts/Roboto/Roboto-SemiBold.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./fonts/Roboto/Roboto-Bold.woff2) format("woff2"),
+       url(./fonts/Roboto/Roboto-Bold.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff2) format("woff2"),
+       url(./fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(./fonts/HelveticaNeueCyr/HelveticaNeueCyr-Medium.woff2) format("woff2"),
+       url(./fonts/HelveticaNeueCyr/HelveticaNeueCyr-Medium.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'HelveticaNeueCyr';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.woff2) format("woff2"),
+       url(./fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.woff) format("woff");
+}

@@ -1,0 +1,18 @@
+.header__container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;
+  max-width: var(--max-width);
+  height: 72px;
+  display: flex;
+  gap: 16px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .header__container {
+    border-bottom: 1px solid var(--slate-gray);
+  }
+}

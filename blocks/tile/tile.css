@@ -1,0 +1,21 @@
+.tile {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 460px;
+  gap: 20px;
+}
+
+.zones .tile {
+  grid-template-rows: auto;
+}
+
+@media (max-width: 767px) {
+  .tile {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .stem-explorer__tiles li:nth-child(even) .tile__info {
+    order: 2;
+  }
+}

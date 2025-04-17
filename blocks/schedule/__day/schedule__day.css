@@ -1,0 +1,7 @@
+.schedule__day {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: flex-end;
+  align-items: center;
+}

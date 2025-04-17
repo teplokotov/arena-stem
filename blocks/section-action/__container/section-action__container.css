@@ -1,0 +1,16 @@
+.section-action__container {
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 80px 40px 0 40px;
+  width: 100%;
+  max-width: var(--max-width);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 425px) {
+  .section-action__container {
+    padding: 60px 20px 0 20px;
+  }
+}

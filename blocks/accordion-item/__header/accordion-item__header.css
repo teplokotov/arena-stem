@@ -1,0 +1,30 @@
+.accordion-item__header {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--dark-gray);
+  cursor: pointer;
+  padding: 25px 40px 25px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.accordion-item__header::after {
+  content: '';
+  position: absolute;
+  right: 1em;
+  width: 1em;
+  height: 1em;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  transition: transform 0.5s ease;
+  background-image: url('../../../images/arrow_black_down.svg');
+}
+
+.accordion-item.active .accordion-item__header::after {
+  transform: rotate(180deg);
+}

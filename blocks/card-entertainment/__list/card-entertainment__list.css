@@ -1,0 +1,19 @@
+.card-entertainment__list {
+  margin: 0;
+  padding: 17px 0 0 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: var(--white);
+}
+
+@media (max-width: 530px) {
+  .card-entertainment__list {
+    font-size: 16px;
+  }
+}

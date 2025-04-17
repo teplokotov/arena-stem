@@ -1,0 +1,9 @@
+@media (max-width: 767px) {
+  .navbar-rightside__item {
+    display: none;
+  }
+
+  .sidebar_opened .navbar-rightside__item {
+    display: flex;
+  }
+}

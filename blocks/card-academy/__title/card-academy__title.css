@@ -1,0 +1,14 @@
+.card-academy__title {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: var(--dark-blue);
+}
+
+@media (max-width: 530px) {
+  .card-academy__title {
+    font-size: 26px;
+  }
+}

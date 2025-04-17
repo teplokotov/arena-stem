@@ -1,0 +1,23 @@
+.events__list {
+  margin: 0;
+  padding: 60px 0 0 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.events-page .events__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px 20px;
+}
+
+@media (max-width: 767px) {
+  .events__list {
+    flex-direction: column;
+  }
+
+  .events-page .events__list {
+    grid-template-columns: 1fr;
+  }
+}

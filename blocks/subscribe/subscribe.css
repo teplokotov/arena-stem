@@ -1,0 +1,12 @@
+.subscribe {
+  box-sizing: border-box;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+@media (max-width: 425px) {
+  .subscribe {
+    padding: 0 20px;
+  }
+}

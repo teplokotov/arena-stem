@@ -1,0 +1,21 @@
+.cta__title {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  text-align: center;
+  color: var(--dark-blue);
+}
+
+@media (max-width: 767px) {
+  .cta__title {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .cta__title {
+    font-size: 25px;
+  }
+}

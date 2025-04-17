@@ -1,0 +1,14 @@
+.stem-explorer__tiles {
+  list-style: none;
+  margin: 0;
+  padding: 70px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+@media (max-width: 425px) {
+  .stem-explorer__tiles {
+    gap: 40px;
+  }
+}

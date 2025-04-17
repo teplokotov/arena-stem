@@ -1,0 +1,13 @@
+.testimonials__container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 98px 40px 25px 40px;
+  width: 100%;
+  max-width: var(--max-width);
+}
+
+@media (max-width: 425px) {
+  .testimonials__container {
+    padding: 50px 20px 0 20px;
+  }
+}

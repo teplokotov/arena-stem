@@ -1,0 +1,13 @@
+.hero__container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 40px;
+  width: 100%;
+  max-width: var(--max-width);
+}
+
+@media (max-width: 425px) {
+  .hero__container {
+    padding: 0 20px;
+  }
+}

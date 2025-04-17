@@ -1,0 +1,10 @@
+.about-us__text-card {
+  width: 50%;
+  min-width: 50%;
+}
+
+@media (max-width: 1024px) {
+  .about-us__text-card {
+    width: 100%;
+  }
+}

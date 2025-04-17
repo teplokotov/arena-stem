@@ -1,0 +1,11 @@
+.navbar__dropdown-link {
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 25px;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.navbar__dropdown-link:hover {
+  opacity: 0.7;
+}

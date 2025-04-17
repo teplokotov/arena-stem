@@ -1,0 +1,11 @@
+.subscribe__error-message {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--dark-blue);
+  margin: 0;
+  padding-top: 8px;
+  height: 29px;
+  text-align: center;
+}

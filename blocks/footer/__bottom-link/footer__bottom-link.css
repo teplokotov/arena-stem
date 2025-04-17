@@ -1,0 +1,12 @@
+.footer__bottom-link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.footer__bottom-link:hover {
+  opacity: 0.9;
+}

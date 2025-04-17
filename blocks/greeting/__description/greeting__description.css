@@ -1,0 +1,10 @@
+.greeting__description {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--dark-gray);
+  width: 100%;
+  max-width: 548px;
+}

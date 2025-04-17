@@ -1,0 +1,19 @@
+.greeting-program {
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  min-height: 550px;
+  position: relative;
+}
+
+.greeting-program__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  z-index: 1;
+}

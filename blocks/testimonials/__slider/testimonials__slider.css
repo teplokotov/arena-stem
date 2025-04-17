@@ -1,0 +1,6 @@
+.testimonials__slider {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  align-items: center;
+}

@@ -1,0 +1,15 @@
+.tile-wide__card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 68px;
+  border-radius: 10px;
+  padding: 70px 24px;
+  background-color: var(--white);
+}
+
+@media (max-width: 767px) {
+  .tile-wide__card {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,22 @@
+.hero__title {
+  margin: 0;
+  font-family: var(--font-family);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+@media (max-width: 767px) {
+  .hero__title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 426px) {
+  .hero__title {
+    font-size: 25px;
+  }
+}

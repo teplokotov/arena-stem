@@ -1,0 +1,5 @@
+.testimonials__heading {
+  display: flex;
+  gap: 0 16px;
+  flex-wrap: wrap;
+}

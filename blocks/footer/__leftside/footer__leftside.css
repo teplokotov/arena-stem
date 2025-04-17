@@ -1,0 +1,10 @@
+.footer__leftside {
+  grid-area: leftside;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1218px;
+  flex-wrap: wrap;
+  gap: 40px;
+}

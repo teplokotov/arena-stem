@@ -1,0 +1,26 @@
+.greeting-program__container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 40px 30px 40px;
+  width: 100%;
+  max-width: var(--max-width);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+@media (max-width:766px) {
+  .greeting-program__container {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .greeting-program__container {
+    padding: 0 20px;
+  }
+}

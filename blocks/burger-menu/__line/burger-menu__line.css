@@ -1,0 +1,18 @@
+.burger-menu__line {
+  width: 100%;
+  height: 3px;
+  background: var(--darker-gray);
+  transition: transform 0.3s linear;
+}
+
+.burger-menu_opened .burger-menu__line:nth-child(1) {
+  transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.burger-menu_opened .burger-menu__line:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-menu_opened .burger-menu__line:nth-child(3) {
+  transform: rotate(45deg) translate(-5px, -5px);
+}

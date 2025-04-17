@@ -1,0 +1,14 @@
+.steps__title {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  text-align: center;
+  color: var(--dark-blue);
+}
+
+.features .steps__title {
+  text-align: left;
+}

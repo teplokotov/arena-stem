@@ -1,0 +1,12 @@
+.footer__column-link {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.footer__column-link:hover {
+  opacity: 0.9;
+}

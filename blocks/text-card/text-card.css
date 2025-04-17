@@ -1,0 +1,6 @@
+.text-card {
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 30px;
+  background-color: var(--white);
+}

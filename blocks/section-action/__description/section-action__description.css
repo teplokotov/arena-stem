@@ -1,0 +1,15 @@
+.section-action__description {
+  margin: 0;
+  padding-top: 24px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--dark-gray);
+  max-width: 752px;
+}
+
+.school-trips-page .section-action__description {
+  max-width: 882px;
+}

@@ -1,0 +1,11 @@
+.sidebar {
+  display: none;
+  position: fixed;
+  overflow: auto;
+  top: 72px;
+  left: 0;
+  width: 100vw;
+  height: calc(100vh - 72px);
+  background: white;
+  z-index: 1000;
+}

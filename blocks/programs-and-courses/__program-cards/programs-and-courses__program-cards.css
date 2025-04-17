@@ -1,0 +1,14 @@
+.programs-and-courses__program-cards {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+@media (max-width: 767px) {
+  .programs-and-courses__program-cards {
+    grid-template-columns: 1fr;
+  }
+}

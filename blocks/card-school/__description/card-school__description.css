@@ -1,0 +1,17 @@
+.card-school__description {
+  margin: 0;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--black);
+  max-width: 365px;
+  margin-top: 13px;
+}
+
+@media (max-width: 1440px) {
+  .card-school__description {
+    width: 100%;
+    max-width: none;
+  }
+}

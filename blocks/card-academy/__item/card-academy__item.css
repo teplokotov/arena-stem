@@ -1,0 +1,19 @@
+.card-academy__item {
+  position: relative;
+  padding-left: 32px;
+  white-space: nowrap;
+}
+
+.card-academy__item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  background-image: url('../../../images/check_orange.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

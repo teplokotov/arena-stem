@@ -1,0 +1,14 @@
+.tile__info_red-drone::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -18px;
+  top: -42px;
+  width: 196px;
+  height: 137px;
+  background-image: url('../../../../images/drone_2.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: 1;
+}

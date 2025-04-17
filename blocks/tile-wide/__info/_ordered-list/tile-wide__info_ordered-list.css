@@ -1,0 +1,22 @@
+.tile-wide__info_ordered-list {
+  list-style: auto;
+  gap: 0;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--dark-gray);
+}
+
+@media (max-width: 767px) {
+  .tile-wide__info_ordered-list {
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 426px) {
+  .tile-wide__info_ordered-list {
+    padding-left: 30px;
+    font-size: 16px;
+  }
+}

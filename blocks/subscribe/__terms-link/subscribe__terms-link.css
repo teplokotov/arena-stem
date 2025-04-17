@@ -1,0 +1,12 @@
+.subscribe__terms-link {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.subscribe__terms-link:visited {
+  color: var(--white);
+}
+
+.subscribe__terms-link:hover {
+  text-decoration: underline;
+}

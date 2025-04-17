@@ -1,0 +1,8 @@
+.primary-button_clear {
+  background: none;
+  border: 1.5px solid var(--dark-blue);
+  color: var(--dark-blue);
+}
+.primary-button_clear:hover {
+  opacity: 0.7;
+}
