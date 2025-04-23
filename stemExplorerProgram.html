@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STEM Enrichment Program</title>
+  <script src="./scripts/common/menu.js" type="module"></script>
+  <link href="./pages/stemExplorerProgram.css" rel="stylesheet">
+</head>
+<body class="body">
+  <header class="header">
+    <div class="header__container">
+      <div class="header__leftside">
+        <div class="header__logo logo"></div>
+        <ul class="header__navbar navbar">
+          <li class="navbar__item navbar__item_has-dropdown">
+            <a class="navbar__link" href="#">Education</a>
+            <ul class="navbar__dropdown">
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">STEM Explorer Program</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Lego Building & Coding</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Financial Literacy and Success</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Chess</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Young Engineers</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Math in STEM</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Afterschool</a>
+              </li>
+            </ul>
+          </li>
+          <li class="navbar__item navbar__item_has-dropdown">
+            <a class="navbar__link" href="#">Entertainment</a>
+            <ul class="navbar__dropdown">
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Entertainment Arena</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Events and Challenges</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Summer Camp</a>
+              </li>
+            </ul>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Birthday Parties</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">For Schools</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Pricing</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Contact Us</a>
+          </li>
+          <li class="navbar__item navbar__item_more navbar__item_has-dropdown" hidden>
+            <a class="navbar__link" href="#">More</a>
+            <ul class="navbar__dropdown navbar__dropdown_more"></ul>
+          </li>
+        </ul>
+      </div>
+      <ul class="header__rightside navbar-rightside">
+        <li class="navbar-rightside__item">
+          <a class="navbar-rightside__link" href="#">Log in</a>
+        </li>
+        <li class="navbar-rightside__item">
+          <a class="navbar-rightside__button" href="#">Inquire</a>
+        </li>
+        <li class="navbar-rightside__item">
+          <a class="navbar-rightside__button navbar-rightside__button_filled" href="#">Enroll</a>
+        </li>
+      </ul>
+      <div class="header__burger-menu burger-menu">
+        <div class="burger-menu__line"></div>
+        <div class="burger-menu__line"></div>
+        <div class="burger-menu__line"></div>
+      </div>
+    </div>
+    <div class="sidebar">
+      <nav class="sidebar__content"></nav>
+    </div>
+  </header>
+  <main>
+    <section class="greeting-program">
+      <img src="./images/h1.png" alt="Chess tournament" class="greeting-program__image">
+      <div class="greeting-program__container">
+        <div class="greeting-program__leftside">
+          <span class="greeting-program__tag tag tag_blue">7+ years old</span>
+          <h1 class="greeting-program__title">STEM Enrichment Program</h1>
+          <p class="greeting-program__description">A&nbsp;fun introduction to&nbsp;STEM for kids, exploring new topics every three weeks!</p>
+          <ul class="greeting-program__actions actions">
+            <li class="actions__item">
+              <a class="actions__button-orange button-orange button-orange_filled" href="#">Book a free trial class</a>
+            </li>
+            <li class="actions__item">
+              <a class="actions__button-orange button-orange" href="#">Inquire</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="greeting-program__schedule schedule">
+          <li class="schedule__day">
+            <div class="schedule__month">Mon</div>
+            <ul class="schedule__time-slots">
+              <li class="schedule__time">5-6PM</li>
+            </ul>
+          </li>
+          <li class="schedule__day">
+            <div class="schedule__month">Tue</div>
+            <ul class="schedule__time-slots">
+              <li class="schedule__time">6-7PM</li>
+            </ul>
+          </li>
+          <li class="schedule__day">
+            <div class="schedule__month">Wed</div>
+            <ul class="schedule__time-slots">
+              <li class="schedule__time">5-6PM</li>
+              <li class="schedule__time">6-7PM</li>
+            </ul>
+          </li>
+          <li class="schedule__day">
+            <div class="schedule__month">Fri</div>
+            <ul class="schedule__time-slots">
+              <li class="schedule__time">6-7PM</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="stem-explorer">
+      <div class="stem-explorer__container">
+        <span class="stem-explorer__tag tag">Level 1</span>
+        <h2 class="stem-explorer__title">STEM Explorer</h2>
+        <p class="stem-explorer__description">This course offers a&nbsp;great insight into what the future of&nbsp;STEM holds.<br>The program includes, but is&nbsp;not limited&nbsp;to, the following topics:</p>
+        <ul class="stem-explorer__tiles">
+          <li>
+            <div class="stem-explorer__tile tile">
+              <div class="tile__image">
+                <img src="./images/tile_1.png" alt="3D Printing">
+              </div>
+              <div class="tile__info">
+                <h3 class="tile__title">3D Printing</h3>
+                <p class="tile__description">A&nbsp;practical introductory course into the world of&nbsp;3D&nbsp;printing. Kids will gain hands-on experience working with a&nbsp;3D&nbsp;pen and learn CAD software to&nbsp;design their own 3D&nbsp;models. They will also print their designs on&nbsp;a&nbsp;real 3D&nbsp;printer!</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="stem-explorer__tile tile">
+              <div class="tile__info">
+                <h3 class="tile__title">Engineering Wizards</h3>
+                <p class="tile__description">A&nbsp;fascinating introduction to&nbsp;the mechanical and engineering world. Kids will learn about simple mechanisms and how they work by&nbsp;assembling them using building blocks.</p>
+              </div>
+              <div class="tile__image">
+                <img src="./images/tile_2.png" alt="Engineering Wizards">
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="stem-explorer__tile tile">
+              <div class="tile__image">
+                <img src="./images/tile_3.png" alt="Drones">
+              </div>
+              <div class="tile__info tile__info_red-drone">
+                <h3 class="tile__title">Drones</h3>
+                <p class="tile__description">One of&nbsp;the most exciting topics for the future. During this class, kids will have the opportunity to&nbsp;learn how to&nbsp;operate a&nbsp;basic drone, build their own drone, and create operating code for a&nbsp;programmable drone.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="stem-explorer__tile tile">
+              <div class="tile__info">
+                <h3 class="tile__title">Scratch Coding Cat</h3>
+                <p class="tile__description">A&nbsp;block programming course based on&nbsp;Scratch. Over three classes, kids will practice coding real-world objects and create their own game.</p>
+              </div>
+              <div class="tile__image">
+                <img src="./images/tile_4.png" alt="Scratch Coding Cat">
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="stem-explorer__tile tile">
+              <div class="tile__image">
+                <img src="./images/tile_5.png" alt="Volts Voyage Basics">
+              </div>
+              <div class="tile__info">
+                <h3 class="tile__title">Volts Voyage Basics</h3>
+                <p class="tile__description">An&nbsp;introduction to&nbsp;the world of&nbsp;low voltage. Kids will learn to&nbsp;create basic electronic circuits and operate switches, motors, and lights.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="tile-wide">
+      <div class="tile-wide__container">
+        <div class="tile-wide__card">
+          <h3 class="tile-wide__title">Additional included workshops:</h3>
+          <ul class="tile-wide__info">
+            <li>
+              <h4 class="tile-wide__info-title">Wonder Workshop Dash & Dot</h4>
+              <p class="tile-wide__info-description">A&nbsp;captivating course featuring Dash &amp;&nbsp;Dot learning robots. Kids will tackle real-world programming challenges and create a&nbsp;self-driving robot.</p>
+            </li>
+            <li>
+              <h4 class="tile-wide__info-title">Microworld</h4>
+              <p class="tile-wide__info-description">A&nbsp;journey into the unseen world, beyond what the human eye can perceive.</p>
+            </li>
+            <li>
+              <h4 class="tile-wide__info-title">Chemistry Magic</h4>
+              <p class="tile-wide__info-description">Unforgettable and amazing experiments in&nbsp;chemistry. From generating electricity using potatoes to&nbsp;boiling liquids with their hands, kids will experience the wonders of&nbsp;chemistry.</p>
+            </li>
+            <li>
+              <h4 class="tile-wide__info-title">Woodwork Hands-On Building</h4>
+              <p class="tile-wide__info-description">With basic woodworking tools, kids will create something cool that they can take home.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="cta">
+      <div class="cta__container">
+        <div class="cta__actions cta__actions_medium">
+          <a class="cta__primary-button primary-button" href="#">Book a free trial class</a>
+          <a class="cta__primary-button primary-button primary-button_clear" href="#">Inquire</a>
+        </div>
+      </div>
+    </section>
+    <section class="stem-explorer">
+      <div class="stem-explorer__container">
+        <span class="stem-explorer__tag tag">Level 2</span>
+        <h2 class="stem-explorer__title">STEM Pioneer</h2>
+        <p class="stem-explorer__description">This is&nbsp;the next step after the Explorer roadmap, offering kids deeper insights into well-known topics and introducing them to&nbsp;new ones.<br>7+&nbsp;years old.</p>
+        <ul class="stem-explorer__tiles">
+          <li>
+            <div class="stem-explorer__tile tile">
+              <div class="tile__image">
+                <img src="./images/tile_6.png" alt="Advanced 3D Printing">
+              </div>
+              <div class="tile__info">
+                <h3 class="tile__title">Advanced 3D Printing</h3>
+                <p class="tile__description">Enhance 3D&nbsp;skills by&nbsp;creating complex models and structures, using real-world measurements, and designing multi-part models. Kids will also be&nbsp;introduced to&nbsp;other CAD software like Lego Studio.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="stem-explorer__tile tile">
+              <div class="tile__info">
+                <h3 class="tile__title">Lego Powered by Scratch</h3>
+                <p class="tile__description">Whether it&rsquo;s controlling real-world objects with code or&nbsp;using Lego blocks to&nbsp;control code, kids will explore these exciting possibilities in&nbsp;this course.</p>
+              </div>
+              <div class="tile__image">
+                <img src="./images/tile_7.png" alt="Lego Powered by Scratch">
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="stem-explorer__tile tile">
+              <div class="tile__image">
+                <img src="./images/tile_8.png" alt="Drones">
+              </div>
+              <div class="tile__info tile__info_drone">
+                <h3 class="tile__title">Drones</h3>
+                <p class="tile__description">Building on&nbsp;flight skills and delving deeper into different types of&nbsp;drones, including FPV (First Person View) drones.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="stem-explorer__tile tile">
+              <div class="tile__info">
+                <h3 class="tile__title">Financial Literacy</h3>
+                <p class="tile__description">Our award-winning program focuses on&nbsp;building an&nbsp;entrepreneurial mindset and good money habits in&nbsp;kids.</p>
+              </div>
+              <div class="tile__image">
+                <img src="./images/tile_9.png" alt="Financial Literacy">
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="stem-explorer__tile tile">
+              <div class="tile__image">
+                <img src="./images/tile_10.png" alt="Robots A2Z">
+              </div>
+              <div class="tile__info">
+                <h3 class="tile__title">Robots A2Z</h3>
+                <p class="tile__description">Programming life-sized humanoid robots is&nbsp;always a&nbsp;fun challenge. Kids will have the opportunity to&nbsp;develop this skill exclusively at&nbsp;Arena STEM.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="stem-explorer__tile tile">
+              <div class="tile__info">
+                <h3 class="tile__title">AI Journey</h3>
+                <p class="tile__description">AI&nbsp;is&nbsp;undeniably essential for the future. Kids will learn about different types of&nbsp;AI and use cases, and they&rsquo;ll even create their own neural network to&nbsp;recognize objects using a&nbsp;camera.</p>
+              </div>
+              <div class="tile__image">
+                <img src="./images/tile_11.png" alt="AI Journey">
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="tile-wide">
+      <div class="tile-wide__container">
+        <div class="tile-wide__card">
+          <h3 class="tile-wide__title">Additional included workshops:</h3>
+          <ul class="tile-wide__info">
+            <li>
+              <h4 class="tile-wide__info-title">Tamiya Racing Cars</h4>
+              <p class="tile-wide__info-description">Enter the exciting world of&nbsp;racing cars. Kids will build their own race car and enhance it&nbsp;by&nbsp;upgrading parts such as&nbsp;the motor, wheels, body, and suspension system.</p>
+            </li>
+            <li>
+              <h4 class="tile-wide__info-title">Building Engino Cars</h4>
+              <p class="tile-wide__info-description">Create advanced sensor-driven cars using Engino sets. Kids will learn to&nbsp;operate real-world sensors and engage in&nbsp;Arduino programming in&nbsp;a&nbsp;fun and interactive way.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="cta">
+      <div class="cta__container">
+        <div class="cta__actions cta__actions_fat">
+          <a class="cta__primary-button primary-button" href="#">Book a free trial class</a>
+          <a class="cta__primary-button primary-button primary-button_clear" href="#">Inquire</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__leftside">
+        <div class="footer__logo"></div>
+        <nav class="footer__columns">
+          <div class="footer__column">
+            <h4 class="footer__column-title">Education</h4>
+            <ul class="footer__column-links">
+              <li>
+                <a class="footer__column-link" href="#">STEM Explorer Program</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Lego Building & Coding</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Financial Literacy</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Chess</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Young Engineers</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Math in STEM</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Afterschool</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h4 class="footer__column-title">Entertainment</h4>
+            <ul class="footer__column-links">
+              <li>
+                <a class="footer__column-link" href="#">Entertainment Arena</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Events and Challenges</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Birthday Parties</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Summer Camp</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">School Trips & Youth Events</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h4 class="footer__column-title">About Us</h4>
+            <ul class="footer__column-links">
+              <li>
+                <a class="footer__column-link" href="#">About Arena STEM</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Pricing</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Testimonials</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Contacts</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Careers</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Gift Cards</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h4 class="footer__column-title">Contact Us</h4>
+            <ul class="footer__column-links">
+              <li>
+                <span class="footer__column-links-label">Call Today</span>
+                <a href="tel:2673417176" class="footer__column-link">(267) 341-7176</a>
+              </li>
+              <li>
+                <span class="footer__column-links-label">Email Us</span>
+                <a href="mailto:hello@arenastemPA.com" class="footer__column-link">hello@arenastemPA.com</a>
+              </li>
+              <li>
+                <span class="footer__column-links-label">Location</span>
+                <a href="https://maps.app.goo.gl/4XrEkTyfEcR9T15j6" target="_blank" class="footer__column-link">950 Industrial Blvd, Southampton, PA</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <ul class="footer__rightside">
+        <li>
+          <a class="footer__rightside-link" href="https://www.facebook.com/profile.php?id=61551064730046" target="_blank">
+            <img src="./images/Facebook.svg" alt="Facebook icon" class="footer__rightside-icon">
+          </a>
+        </li>
+        <li>
+          <a class="footer__rightside-link" href="https://www.instagram.com/arenastem_pa/" target="_blank">
+            <img src="./images/Instagram.svg" alt="Instagram icon" class="footer__rightside-icon">
+          </a>
+        </li>
+      </ul>
+      <ul class="footer__bottom">
+        <li>
+          <p class="footer__bottom-title">© 2024 Arena STEM. All rights reserved.</p>
+        </li>
+        <li>
+          <a class="footer__bottom-link" href="#">Privacy Policy</a>
+        </li>
+        <li>
+          <a class="footer__bottom-link" href="#">Terms &amp;&nbsp;Conditions</a>
+        </li>
+        <li>
+          <a class="footer__bottom-link" href="#">Waiver</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
