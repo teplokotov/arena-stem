@@ -1,0 +1,20 @@
+.one-time-pass__content {
+  padding: 30px 30px 30px 0;
+  width: 100%;
+  max-width: 870px;
+  position: relative;
+}
+
+@media (width <= 768px) {
+  .one-time-pass__content {
+    width: auto;
+    max-width: none;
+    padding: 30px;
+  }
+}
+
+@media (width <= 376px) {
+  .one-time-pass__content {
+    padding: 20px;
+  }
+}

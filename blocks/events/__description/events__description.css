@@ -6,4 +6,12 @@
   text-align: center;
   color: var(--dark-gray);
   max-width: 882px;
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.events__description p {
+  margin: 0;
 }

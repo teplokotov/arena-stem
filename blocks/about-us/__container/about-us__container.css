@@ -13,6 +13,10 @@
   padding: 70px 40px 60px 40px;
 }
 
+.contact-us-info .about-us__container {
+  padding: 70px 40px 0 40px;
+}
+
 @media (max-width: 1024px) {
   .about-us__container {
     flex-direction: column;
@@ -24,7 +28,8 @@
     padding: 50px 20px 0 20px;
   }
 
-  .event-info .about-us__container {
+  .event-info .about-us__container,
+  .contact-us-info .about-us__container {
     padding: 50px 20px;
   }
 }

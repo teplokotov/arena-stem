@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entertainment Arena</title>
+  <script src="./scripts/common/menu.js" type="module"></script>
+  <link href="./pages/entertainmentArena.css" rel="stylesheet">
+</head>
+<body class="body">
+  <header class="header">
+    <div class="header__container">
+      <div class="header__leftside">
+        <div class="header__logo logo"></div>
+        <ul class="header__navbar navbar">
+          <li class="navbar__item navbar__item_has-dropdown">
+            <a class="navbar__link" href="#">Education</a>
+            <ul class="navbar__dropdown">
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">STEM Explorer Program</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Lego Building & Coding</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Financial Literacy and Success</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Chess</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Young Engineers</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Math in STEM</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Afterschool</a>
+              </li>
+            </ul>
+          </li>
+          <li class="navbar__item navbar__item_has-dropdown">
+            <a class="navbar__link" href="#">Entertainment</a>
+            <ul class="navbar__dropdown">
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Entertainment Arena</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Events and Challenges</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Summer Camp</a>
+              </li>
+            </ul>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Birthday Parties</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">For Schools</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Pricing</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Contact Us</a>
+          </li>
+          <li class="navbar__item navbar__item_more navbar__item_has-dropdown" hidden>
+            <a class="navbar__link" href="#">More</a>
+            <ul class="navbar__dropdown navbar__dropdown_more"></ul>
+          </li>
+        </ul>
+      </div>
+      <ul class="header__rightside navbar-rightside">
+        <li class="navbar-rightside__item">
+          <a class="navbar-rightside__link" href="#">Log in</a>
+        </li>
+        <li class="navbar-rightside__item">
+          <a class="navbar-rightside__button" href="#">Inquire</a>
+        </li>
+        <li class="navbar-rightside__item">
+          <a class="navbar-rightside__button navbar-rightside__button_filled" href="#">Enroll</a>
+        </li>
+      </ul>
+      <div class="header__burger-menu burger-menu">
+        <div class="burger-menu__line"></div>
+        <div class="burger-menu__line"></div>
+        <div class="burger-menu__line"></div>
+      </div>
+    </div>
+    <div class="sidebar">
+      <nav class="sidebar__content"></nav>
+    </div>
+  </header>
+  <main>
+    <section class="greeting-program greeting-program_zones">
+      <img src="./images/h7.png" alt="Exciting Interactive Zones for Kids" class="greeting-program__image">
+      <div class="greeting-program__container">
+        <div class="greeting-program__leftside">
+          <h1 class="greeting-program__title">Exciting Interactive<br>Zones for Kids</h1>
+          <p class="greeting-program__description greeting-program__description_w617">Dive into over 3,000 square feet of&nbsp;thrilling interactive zones designed for exploration and creativity. Your child will engage with hands-on activities that ignite their passion for STEM.</p>
+          <ul class="greeting-program__actions actions">
+            <li class="actions__item">
+              <a class="actions__button-orange button-orange button-orange_filled" href="#">Book a free trial class</a>
+            </li>
+            <li class="actions__item">
+              <a class="actions__button-orange button-orange" href="#">Inquire</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="stem-explorer zones">
+      <div class="stem-explorer__container">
+        <ul class="stem-explorer__tiles">
+          <li>
+            <div class="stem-explorer__tile tile">
+              <div class="tile__image">
+                <img src="./images/z1.png" alt="VR Zone">
+              </div>
+              <div class="tile__info">
+                <span class="tile__tag tag">VR Zone</span>
+                <h3 class="tile__title">The Thrill of Virtual Reality</h3>
+                <p class="tile__description">Plunge into a&nbsp;whole new reality with our immersive&nbsp;VR experience that will dazzle all players across the age spectrum.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="stem-explorer__tile tile">
+              <div class="tile__info">
+                <span class="tile__tag tag">Drone Zone</span>
+                <h3 class="tile__title">Operate a Drone Flight</h3>
+                <p class="tile__description">Learn how to&nbsp;operate a&nbsp;real drone in&nbsp;a&nbsp;fun and safe environment as&nbsp;you soar into the Future of&nbsp;Aerial Exploration.</p>
+              </div>
+              <div class="tile__image tile__image_drone">
+                <img src="./images/z2.png" alt="Drone Zone">
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="stem-explorer__tile tile">
+              <div class="tile__image">
+                <img src="./images/z3.png" alt="Race Car Zone">
+              </div>
+              <div class="tile__info">
+                <span class="tile__tag tag">Race Car Zone</span>
+                <h3 class="tile__title">Build Your Dream Race Track</h3>
+                <p class="tile__description">Get ready to&nbsp;feel the adrenaline as&nbsp;you race to&nbsp;victory on&nbsp;your own custom built race track. Feel the excitement as&nbsp;you watch your creations come to&nbsp;life and compete for victory!</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="stem-explorer__tile tile">
+              <div class="tile__info">
+                <span class="tile__tag tag">Lego Zone</span>
+                <h3 class="tile__title">Craft LEGO creations</h3>
+                <p class="tile__description">Unleash your imagination and creativity as&nbsp;you build in&nbsp;one of&nbsp;the biggest Lego collections you&rsquo;ve ever seen! Whether you&rsquo;re constructing towering skyscrapers or&nbsp;intricate vehicles, the only limit is&nbsp;your imagination. Join&nbsp;us for a&nbsp;fun-filled adventure where creativity knows no&nbsp;bounds!</p>
+              </div>
+              <div class="tile__image">
+                <img src="./images/z4.png" alt="Lego Zone">
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="stem-explorer__tile tile">
+              <div class="tile__image">
+                <img src="./images/z5.png" alt="Interactive Wall">
+              </div>
+              <div class="tile__info">
+                <span class="tile__tag tag">Interactive Wall</span>
+                <h3 class="tile__title">Variety of games and activities for all ages</h3>
+                <p class="tile__description">Endless fun and entertainment with our interactive wall featuring a&nbsp;variety of&nbsp;games and activities for all ages.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="stem-explorer__tile tile">
+              <div class="tile__info">
+                <span class="tile__tag tag">Makers Zone</span>
+                <h3 class="tile__title">Ideas Come to Life</h3>
+                <p class="tile__description">Let your innovation flourish through collaborative DIY creations and STEM experiences. In&nbsp;the Makers Zone, we&nbsp;provide a&nbsp;vibrant space for young innovators to&nbsp;collaborate on&nbsp;DIY projects. Here, kids can unleash their creativity while engaging in&nbsp;hands-on STEM experiences. Join&nbsp;us to&nbsp;explore, invent, and learn together!</p>
+              </div>
+              <div class="tile__image">
+                <img src="./images/z6.png" alt="Makers Zone">
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="cta">
+      <div class="cta__container">
+        <div class="cta__actions cta__actions_fat">
+          <a class="cta__primary-button primary-button" href="#">Book a free trial class</a>
+          <a class="cta__primary-button primary-button primary-button_clear" href="#">Inquire</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__leftside">
+        <div class="footer__logo"></div>
+        <nav class="footer__columns">
+          <div class="footer__column">
+            <h4 class="footer__column-title">Education</h4>
+            <ul class="footer__column-links">
+              <li>
+                <a class="footer__column-link" href="#">STEM Explorer Program</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Lego Building & Coding</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Financial Literacy</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Chess</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Young Engineers</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Math in STEM</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Afterschool</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h4 class="footer__column-title">Entertainment</h4>
+            <ul class="footer__column-links">
+              <li>
+                <a class="footer__column-link" href="#">Entertainment Arena</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Events and Challenges</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Birthday Parties</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Summer Camp</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">School Trips & Youth Events</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h4 class="footer__column-title">About Us</h4>
+            <ul class="footer__column-links">
+              <li>
+                <a class="footer__column-link" href="#">About Arena STEM</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Pricing</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Testimonials</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Contacts</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Careers</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Gift Cards</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h4 class="footer__column-title">Contact Us</h4>
+            <ul class="footer__column-links">
+              <li>
+                <span class="footer__column-links-label">Call Today</span>
+                <a href="tel:2673417176" class="footer__column-link">(267) 341-7176</a>
+              </li>
+              <li>
+                <span class="footer__column-links-label">Email Us</span>
+                <a href="mailto:hello@arenastemPA.com" class="footer__column-link">hello@arenastemPA.com</a>
+              </li>
+              <li>
+                <span class="footer__column-links-label">Location</span>
+                <a href="https://maps.app.goo.gl/4XrEkTyfEcR9T15j6" target="_blank" class="footer__column-link">950 Industrial Blvd, Southampton, PA</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <ul class="footer__rightside">
+        <li>
+          <a class="footer__rightside-link" href="https://www.facebook.com/profile.php?id=61551064730046" target="_blank">
+            <img src="./images/Facebook.svg" alt="Facebook icon" class="footer__rightside-icon">
+          </a>
+        </li>
+        <li>
+          <a class="footer__rightside-link" href="https://www.instagram.com/arenastem_pa/" target="_blank">
+            <img src="./images/Instagram.svg" alt="Instagram icon" class="footer__rightside-icon">
+          </a>
+        </li>
+      </ul>
+      <ul class="footer__bottom">
+        <li>
+          <p class="footer__bottom-title">© 2024 Arena STEM. All rights reserved.</p>
+        </li>
+        <li>
+          <a class="footer__bottom-link" href="#">Privacy Policy</a>
+        </li>
+        <li>
+          <a class="footer__bottom-link" href="#">Terms &amp;&nbsp;Conditions</a>
+        </li>
+        <li>
+          <a class="footer__bottom-link" href="#">Waiver</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

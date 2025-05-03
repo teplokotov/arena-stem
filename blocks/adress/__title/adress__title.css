@@ -1,0 +1,9 @@
+.adress__title {
+  margin: 0;
+  padding-top: 16px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: var(--dark-gray);
+}

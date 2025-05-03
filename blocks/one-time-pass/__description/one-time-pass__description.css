@@ -1,0 +1,32 @@
+.one-time-pass__description {
+  padding: 8px 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  max-width: 559px;
+  position: relative;
+  z-index: 2;
+}
+
+@media (width <= 1024px) {
+  .one-time-pass__description {
+    padding-top: 30px;
+  }
+}
+
+@media (width <= 768px) {
+  .one-time-pass__description {
+    padding-top: 0;
+  }
+}
+
+@media (width <= 376px) {
+  .one-time-pass__description {
+    font-size: 16px;
+  }
+}

@@ -11,3 +11,7 @@
   padding-top: 30px;
   justify-content: left;
 }
+
+.contact-us-info .cta__actions {
+  justify-content: left;
+}

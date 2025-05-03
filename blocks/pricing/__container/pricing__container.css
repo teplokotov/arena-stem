@@ -1,0 +1,17 @@
+.pricing__container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 80px 40px 0 40px;
+  width: 100%;
+  max-width: var(--max-width);
+  overflow: hidden;
+}
+
+@media (max-width: 425px) {
+  .pricing__container {
+    padding: 50px 20px 0 20px;
+  }
+}

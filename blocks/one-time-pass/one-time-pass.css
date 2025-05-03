@@ -1,0 +1,35 @@
+.one-time-pass {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border: 2px solid #fa821f;
+  border-radius: 10px;
+  width: 100%;
+  background-color: var(--white);
+  background-image: url(../../images/plan_bg_4.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: auto;
+  position: relative;
+}
+
+.one-time-pass::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -14px;
+  bottom: 0;
+  width: 140px;
+  height: 188px;
+  background-image: url('../../images/chess.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: 1;
+}
+
+@media (width <= 768px) {
+  .one-time-pass {
+    flex-direction: column;
+  }
+}

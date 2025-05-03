@@ -5,8 +5,18 @@
   padding: 0 40px;
 }
 
+.contact-us-info.subscribe {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
 @media (max-width: 425px) {
   .subscribe {
     padding: 0 20px;
+  }
+
+  .contact-us-info.subscribe {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }

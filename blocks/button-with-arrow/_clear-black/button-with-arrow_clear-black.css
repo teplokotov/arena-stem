@@ -1,0 +1,10 @@
+.button-with-arrow_clear-black {
+  padding: 0;
+  background: none;
+  height: 24px;
+  color: var(--dark-gray);
+}
+
+.button-with-arrow_clear-black::after {
+  background-image: url('../../../images/arrow_black_right.svg');
+}

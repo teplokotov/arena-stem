@@ -1,0 +1,14 @@
+.plans {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+}
+
+@media (width <= 990px) {
+  .plans {
+    flex-direction: column;
+  }
+}

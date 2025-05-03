@@ -11,6 +11,10 @@
   margin: 10px 0;
 }
 
+.contact-us-info .text-card__description p {
+  margin: 0;
+}
+
 .text-card__description a:not(.button-with-arrow):not(.primary-button) {
   color: var(--orange);
   text-decoration: none;

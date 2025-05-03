@@ -1,0 +1,78 @@
+.plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  padding: 30px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.plan:nth-child(1) {
+  background-color: var(--light-blue-2);
+  background-image: url(../../images/plan_bg_1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.plan:nth-child(2) {
+  background-color: var(--white);
+  background-image: url(../../images/plan_bg_2.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  overflow: hidden;
+}
+
+.plan:nth-child(3) {
+  background-color: var(--white);
+  background-image: url(../../images/plan_bg_3.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+}
+
+.plan:nth-child(2)::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -22px;
+  bottom: 91px;
+  width: 160px;
+  height: 308px;
+  background-image: url('../../images/lego.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: 1;
+}
+
+.plan:nth-child(3)::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -35px;
+  top: -38px;
+  width: 135px;
+  height: 135px;
+  background-image: url('../../images/drone_3.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  z-index: 1;
+  transform: rotate(6deg);
+}
+
+@media (width <= 990px) {
+  .plan:nth-child(2),
+  .plan:nth-child(3) {
+    background-size: cover;
+  }
+}
+
+@media (width <= 376px) {
+  .plan {
+    padding: 20px;
+  }
+}

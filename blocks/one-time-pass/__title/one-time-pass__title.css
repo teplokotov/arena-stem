@@ -1,0 +1,22 @@
+.one-time-pass__title {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 140%;
+  color: var(--dark-blue);
+  margin: 0;
+}
+
+@media (width <= 1024px) {
+  .one-time-pass__title {
+    padding-top: 20px;
+  }
+}
+
+@media (width <= 768px) {
+  .one-time-pass__title {
+    padding-top: 0;
+    text-align: center;
+  }
+}
+

@@ -1,0 +1,21 @@
+.one-time-pass__price {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 120%;
+  text-align: right;
+  color: var(--orange);
+  margin: 0;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+@media (width <= 768px) {
+  .one-time-pass__price {
+    position: initial;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 8px;
+  }
+}

@@ -1,0 +1,13 @@
+.frame__container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 70px 40px;
+  width: 100%;
+  max-width: var(--max-width);
+}
+
+@media (max-width: 425px) {
+  .frame__container {
+    padding: 50px 20px;
+  }
+}
