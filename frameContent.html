@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+      <title>Child page</title>
+      <style>
+          body {
+            margin: 0;
+            font-family: Arial;
+            height: 1500px;
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+      </style>
+  </head>
+  <body>
+      <div id="content">
+        Example of child page
+      </div>
+
+      <script>
+          function sendHeight() {
+              const height = document.body.scrollHeight;
+              window.parent.postMessage(
+                  { type: 'resize', height: height },
+                  '*' // Replace to your origin
+              );
+          }
+
+          window.addEventListener('load', sendHeight);
+          window.addEventListener('resize', sendHeight);
+
+          // if SPA
+          const observer = new MutationObserver(sendHeight);
+          observer.observe(document.body, {
+              childList: true,
+              subtree: true,
+              attributes: true,
+              characterData: true
+          });
+      </script>
+
+  </body>
+</html>

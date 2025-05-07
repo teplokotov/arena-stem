@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STEM Arena Pricing Plans</title>
+  <link href="./scripts/common/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <script src="./scripts/common/swiper/swiper-bundle.min.js"></script>
+
+  <script src="./scripts/home.js" type="module"></script>
+  <script src="./scripts/common/accordion.js" type="module"></script>
+  <script src="./scripts/common/menu.js" type="module"></script>
+
+  <link href="./pages/pricing.css" rel="stylesheet">
+</head>
+<body class="body">
+  <header class="header">
+    <div class="header__container">
+      <div class="header__leftside">
+        <div class="header__logo logo"></div>
+        <ul class="header__navbar navbar">
+          <li class="navbar__item navbar__item_has-dropdown">
+            <a class="navbar__link" href="#">Education</a>
+            <ul class="navbar__dropdown">
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">STEM Explorer Program</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Lego Building & Coding</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Financial Literacy and Success</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Chess</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Young Engineers</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Math in STEM</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Afterschool</a>
+              </li>
+            </ul>
+          </li>
+          <li class="navbar__item navbar__item_has-dropdown">
+            <a class="navbar__link" href="#">Entertainment</a>
+            <ul class="navbar__dropdown">
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Entertainment Arena</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Events and Challenges</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Summer Camp</a>
+              </li>
+            </ul>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Birthday Parties</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">For Schools</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Pricing</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Contact Us</a>
+          </li>
+          <li class="navbar__item navbar__item_more navbar__item_has-dropdown" hidden>
+            <a class="navbar__link" href="#">More</a>
+            <ul class="navbar__dropdown navbar__dropdown_more"></ul>
+          </li>
+        </ul>
+      </div>
+      <ul class="header__rightside navbar-rightside">
+        <li class="navbar-rightside__item">
+          <a class="navbar-rightside__link" href="#">Log in</a>
+        </li>
+        <li class="navbar-rightside__item">
+          <a class="navbar-rightside__button" href="#">Inquire</a>
+        </li>
+        <li class="navbar-rightside__item">
+          <a class="navbar-rightside__button navbar-rightside__button_filled" href="#">Enroll</a>
+        </li>
+      </ul>
+      <div class="header__burger-menu burger-menu">
+        <div class="burger-menu__line"></div>
+        <div class="burger-menu__line"></div>
+        <div class="burger-menu__line"></div>
+      </div>
+    </div>
+    <div class="sidebar">
+      <nav class="sidebar__content"></nav>
+    </div>
+  </header>
+  <main>
+    <section class="pricing">
+      <div class="pricing__container">
+        <h1 class="pricing__title">STEM Arena Pricing Plans</h1>
+        <p class="pricing__description">Choose the plan that fits your child’s needs.<br>All plans offer month-to-month payments that you can cancel anytime.</p>
+        <ul class="pricing__plans plans">
+          <li class="plans__item plan">
+            <div class="plan__header">
+              <h3 class="plan__title">Monthly Access</h3>
+              <p class="plan__price">$169/mo</p>
+              <p class="plan__description">STEM Program + Arena Time</p>
+              <ul class="plan__features">
+                <li class="plan__feature">STEM Education + Entertainment</li>
+                <li class="plan__feature">Weekly STEM <a class="plan__feature-link" href="#">program</a> (1&nbsp;hr/week) - choose from <a class="plan__feature-link" href="#">STEM Enrichment</a>, <a class="plan__feature-link" href="#">Lego Robotics</a>, <a class="plan__feature-link" href="#">Financial Literacy</a>, <a class="plan__feature-link" href="#">Chess</a></li>
+                <li class="plan__feature">Unlimited access (any weekday!) to 3000+ sq. ft. Entertainment <a class="plan__feature-link" href="#">Arena</a></li>
+                <li class="plan__feature">Monthly Hackathons by <a class="plan__feature-link" href="#">STEM Enrichment of PA</a></li>
+                <li class="plan__feature">Lots of perks (snacks, guest passes, prizes, gifts, graduation party)</li>
+              </ul>
+            </div>
+            <a class="plan__primary-button primary-button" href="#">Enroll</a>
+          </li>
+          <li class="plans__item plan">
+            <div class="plan__header">
+              <h3 class="plan__title">Entertainment Package</h3>
+              <p class="plan__price">$100/mo</p>
+              <p class="plan__description">Arena Time only</p>
+              <ul class="plan__features">
+                <li class="plan__feature">Unlimited access to 3000+ sq. ft. Entertainment <a class="plan__feature-link" href="#">Arena</a> (any weekday!)</li>
+                <li class="plan__feature">Monthly Hackathons by <a class="plan__feature-link" href="#">STEM Enrichment of PA</a></li>
+                <li class="plan__feature">Perks (snacks, prizes, gifts, guest passes)</li>
+              </ul>
+            </div>
+            <a class="plan__primary-button primary-button" href="#">Enroll</a>
+          </li>
+          <li class="plans__item plan">
+            <div class="plan__header">
+              <h3 class="plan__title">Education package</h3>
+              <p class="plan__price">$100/mo</p>
+              <p class="plan__description">STEM Program Only</p>
+              <ul class="plan__features">
+                <li class="plan__feature">Weekly STEM <a class="plan__feature-link" href="#">program</a> (1&nbsp;hr/week) - choose from <a class="plan__feature-link" href="#">STEM Enrichment</a>, <a class="plan__feature-link" href="#">Lego Robotics</a>, <a class="plan__feature-link" href="#">Financial Literacy</a>, <a class="plan__feature-link" href="#">Chess</a></li>
+                <li class="plan__feature">Monthly Hackathons by <a class="plan__feature-link" href="#">STEM Enrichment of PA</a></li>
+                <li class="plan__feature">Perks (snacks, prizes, gifts, guest passes, certificate, graduation)</li>
+              </ul>
+            </div>
+            <a class="plan__primary-button primary-button" href="#">Enroll</a>
+          </li>
+        </ul>
+        <div class="pricing__one-time-pass one-time-pass">
+          <div class="one-time-pass__image">
+            <img src="./images/all_access.png" alt="All-Access One-Time Pass">
+          </div>
+          <div class="one-time-pass__content">
+            <h3 class="one-time-pass__title">All-Access One-Time Pass</h3>
+            <p class="one-time-pass__price">$20</p>
+            <ul class="one-time-pass__description">
+              <li class="one-time-pass__feature">2 hours of unlimited fun in our entertainment zone, packed with latest tech and hands on STEM activities for all age groups.</li>
+              <li class="one-time-pass__feature">Unlimited Exploration: Enjoy unrestricted access to entire Arena and all stations (3,000 sq. ft.).</li>
+              <li class="one-time-pass__feature">Learn with hands on: Engage with knowledgeable staff and learn through play to make it a memorable experience.</li>
+            </ul>
+            <a class="plan__primary-button primary-button" href="#">Book now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="faq">
+      <div class="faq__container">
+        <h2 class="faq__title">FAQs</h2>
+        <p class="faq__description">Find answers to your questions about our programs, schedules, and enrollment process.</p>
+        <div class="faq__accordion">
+          <div class="faq__accordion-item accordion-item">
+            <div class="accordion-item__header">Is Arena STEM for education or entertainment?</div>
+            <div class="accordion-item__content">
+              <p>Both! We are a one-of-a-kind facility where kids and families come for STEM educational programs and also hands-on play in our 3,000+ sq foot Arena with the latest technology and real sized Robots!</p>
+              <p>We also do birthdays, events, and school trips!</p>
+            </div>
+          </div>
+          <div class="faq__accordion-item accordion-item">
+            <div class="accordion-item__header">Can I bring my children just to play?</div>
+            <div class="accordion-item__content">
+              <p>Yes, drop in 5PM to 8 PM weekdays to play in our Arena. It costs $15/child/hour. You can also buy our monthly access membership (month-to-month, no commitments) and have unlimited access!</p>
+            </div>
+          </div>
+          <div class="faq__accordion-item accordion-item">
+            <div class="accordion-item__header">What does the monthly access include? How much is it?</div>
+            <div class="accordion-item__content">
+              <p>The monthly membership includes many awesome perks for just $169/month! Please check our Pricing page for details. But the main benefit of a monthly access is:</p>
+              <ul>
+                <li>One STEM class per week (your choice), followed by playtime in Arena.</li>
+                <li>Unlimited access to the Arena for playtime on any other day.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="faq__accordion-item accordion-item">
+            <div class="accordion-item__header">What STEM classes do you offer?</div>
+            <div class="accordion-item__content">
+              <p>We offer a variety of STEM-related classes. The most popular is our proprietary Roadmap Program, where we cover a new STEM topic every 3 weeks. We usually start this program for kids 7 years and older. Younger kids can start with our Lego Robotics classes. Please review all our amazing classes on Education page.</p>
+            </div>
+          </div>
+          <div class="faq__accordion-item accordion-item">
+            <div class="accordion-item__header">How long is each class? When do they start?</div>
+            <div class="accordion-item__content">
+              <p>Each class runs for approximately 1 hour, and it is followed by 1 hour of playtime in our open arena. Kids will spend at least 2 hours with us per evening. All classes start at either 5PM or 6 PM every day, and you can do 1 hour of arena playtime before or after class. We also offer Saturday classes.</p>
+            </div>
+          </div>
+          <div class="faq__accordion-item accordion-item">
+            <div class="accordion-item__header">Can my child play in the arena even on days they don't have class?</div>
+            <div class="accordion-item__content">
+              <p>Yes, with a monthly access membership, your child can come and enjoy the arena on any day, even if they don't have a class scheduled.</p>
+            </div>
+          </div>
+          <div class="faq__accordion-item accordion-item">
+            <div class="accordion-item__header">How do I sign up for a membership?</div>
+            <div class="accordion-item__content">
+              <p>You can sign up for a monthly membership through our Pricing page. We only have 50 spots available.</p>
+            </div>
+          </div>
+          <div class="faq__accordion-item accordion-item">
+            <div class="accordion-item__header">Is there a limit to how many classes my child can attend each week?</div>
+            <div class="accordion-item__content">
+              <p>The monthly membership includes access to one class per week. If you would like your child to attend more than one class per week, please contact us for additional options.</p>
+            </div>
+          </div>
+          <div class="faq__accordion-item accordion-item">
+            <div class="accordion-item__header">Can I cancel my monthly membership at any time?</div>
+            <div class="accordion-item__content">
+              <p>Yes, you can cancel your membership at any time. There is no long term commitment. Please note that refunds may not be available for partial months.</p>
+            </div>
+          </div>
+          <div class="faq__accordion-item accordion-item">
+            <div class="accordion-item__header">Do you offer trial classes?</div>
+            <div class="accordion-item__content">
+              <p>Yes, our first class is always free. It’s a great way to check out the facility and try our classes. Please contact us to schedule a trial session for your child.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cta">
+      <div class="cta__container">
+        <h2 class="cta__title">Still have questions?</h2>
+        <p class="cta__description">Don’t hesitate to ask us or enroll in a free trial lesson to see everything for yourself!</p>
+        <div class="cta__actions">
+          <a class="cta__primary-button primary-button" href="#">Book a free trial class</a>
+          <a class="cta__primary-button primary-button primary-button_clear" href="#">Inquire</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__leftside">
+        <div class="footer__logo"></div>
+        <nav class="footer__columns">
+          <div class="footer__column">
+            <h4 class="footer__column-title">Education</h4>
+            <ul class="footer__column-links">
+              <li>
+                <a class="footer__column-link" href="#">STEM Explorer Program</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Lego Building & Coding</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Financial Literacy</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Chess</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Young Engineers</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Math in STEM</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Afterschool</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h4 class="footer__column-title">Entertainment</h4>
+            <ul class="footer__column-links">
+              <li>
+                <a class="footer__column-link" href="#">Entertainment Arena</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Events and Challenges</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Birthday Parties</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Summer Camp</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">School Trips & Youth Events</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h4 class="footer__column-title">About Us</h4>
+            <ul class="footer__column-links">
+              <li>
+                <a class="footer__column-link" href="#">About Arena STEM</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Pricing</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Testimonials</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Contacts</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Careers</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Gift Cards</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h4 class="footer__column-title">Contact Us</h4>
+            <ul class="footer__column-links">
+              <li>
+                <span class="footer__column-links-label">Call Today</span>
+                <a href="tel:2673417176" class="footer__column-link">(267) 341-7176</a>
+              </li>
+              <li>
+                <span class="footer__column-links-label">Email Us</span>
+                <a href="mailto:hello@arenastemPA.com" class="footer__column-link">hello@arenastemPA.com</a>
+              </li>
+              <li>
+                <span class="footer__column-links-label">Location</span>
+                <a href="https://maps.app.goo.gl/4XrEkTyfEcR9T15j6" target="_blank" class="footer__column-link">950 Industrial Blvd, Southampton, PA</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <ul class="footer__rightside">
+        <li>
+          <a class="footer__rightside-link" href="https://www.facebook.com/profile.php?id=61551064730046" target="_blank">
+            <img src="./images/Facebook.svg" alt="Facebook icon" class="footer__rightside-icon">
+          </a>
+        </li>
+        <li>
+          <a class="footer__rightside-link" href="https://www.instagram.com/arenastem_pa/" target="_blank">
+            <img src="./images/Instagram.svg" alt="Instagram icon" class="footer__rightside-icon">
+          </a>
+        </li>
+      </ul>
+      <ul class="footer__bottom">
+        <li>
+          <p class="footer__bottom-title">© 2024 Arena STEM. All rights reserved.</p>
+        </li>
+        <li>
+          <a class="footer__bottom-link" href="#">Privacy Policy</a>
+        </li>
+        <li>
+          <a class="footer__bottom-link" href="#">Terms &amp;&nbsp;Conditions</a>
+        </li>
+        <li>
+          <a class="footer__bottom-link" href="#">Waiver</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>

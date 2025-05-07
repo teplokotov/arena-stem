@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link href="./pages/contactUs.css" rel="stylesheet">
+  <script src="./scripts/common/menu.js" type="module"></script>
+  <script src="./scripts/common/subscribeValidator.js" type="module"></script>
+</head>
+<body class="body">
+  <header class="header">
+    <div class="header__container">
+      <div class="header__leftside">
+        <div class="header__logo logo"></div>
+        <ul class="header__navbar navbar">
+          <li class="navbar__item navbar__item_has-dropdown">
+            <a class="navbar__link" href="#">Education</a>
+            <ul class="navbar__dropdown">
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">STEM Explorer Program</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Lego Building & Coding</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Financial Literacy and Success</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Chess</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Young Engineers</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Math in STEM</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Afterschool</a>
+              </li>
+            </ul>
+          </li>
+          <li class="navbar__item navbar__item_has-dropdown">
+            <a class="navbar__link" href="#">Entertainment</a>
+            <ul class="navbar__dropdown">
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Entertainment Arena</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Events and Challenges</a>
+              </li>
+              <li class="navbar__dropdown-item">
+                <a class="navbar__dropdown-link" href="#">Summer Camp</a>
+              </li>
+            </ul>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Birthday Parties</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">For Schools</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Pricing</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#">Contact Us</a>
+          </li>
+          <li class="navbar__item navbar__item_more navbar__item_has-dropdown" hidden>
+            <a class="navbar__link" href="#">More</a>
+            <ul class="navbar__dropdown navbar__dropdown_more"></ul>
+          </li>
+        </ul>
+      </div>
+      <ul class="header__rightside navbar-rightside">
+        <li class="navbar-rightside__item">
+          <a class="navbar-rightside__link" href="#">Log in</a>
+        </li>
+        <li class="navbar-rightside__item">
+          <a class="navbar-rightside__button" href="#">Inquire</a>
+        </li>
+        <li class="navbar-rightside__item">
+          <a class="navbar-rightside__button navbar-rightside__button_filled" href="#">Enroll</a>
+        </li>
+      </ul>
+      <div class="header__burger-menu burger-menu">
+        <div class="burger-menu__line"></div>
+        <div class="burger-menu__line"></div>
+        <div class="burger-menu__line"></div>
+      </div>
+    </div>
+    <div class="sidebar">
+      <nav class="sidebar__content"></nav>
+    </div>
+  </header>
+  <main>
+    <section class="about-us contact-us-info">
+      <div class="about-us__container">
+        <div class="about-us__text-card text-card">
+          <span class="about-us__tag tag">Connect</span>
+          <h2 class="text-card__title">Get in Touch</h2>
+          <div class="text-card__description">
+            <p>We’re here to answer your questions and help you.</p>
+            <ul class="text-card__adress adress">
+              <li>
+                <img class="adress__image" src="./images/email_icon.svg" alt="Email">
+                <h3 class="adress__title">Email</h3>
+                <a href="mailto:hello@arenastemPA.com" class="adress__link">hello@arenastemPA.com</a>
+              </li>
+              <li>
+                <img class="adress__image" src="./images/phone_icon.svg" alt="Phone">
+                <h3 class="adress__title">Phone</h3>
+                <a href="tel:2673417176" class="adress__phone">(267) 341-7176</a>
+              </li>
+              <li>
+                <img class="adress__image" src="./images/point_icon.svg" alt="Location">
+                <h3 class="adress__title">Location</h3>
+                <a href="https://maps.app.goo.gl/4XrEkTyfEcR9T15j6" target="_blank" class="adress__link">950 Industrial Blvd, Southampton, PA</a>
+                <a class="adress__button-with-arrow button-with-arrow button-with-arrow_clear-black" href="https://maps.google.com/maps/dir//Arena+STEM+Pennsylvania+950+Industrial+Blvd+Southampton,+PA+18966+USA/@40.1622176,-75.0450855,17z/data=!4m5!4m4!1m0!1m2!1m1!1s0x89c6ad3725d3c965:0xc533df63ed834f9e" target="_blank">Get Directions</a>
+              </li>
+            </ul>
+            <div class="cta__actions">
+              <a class="cta__primary-button primary-button primary-button_clear" href="#">Inquire</a>
+            </div>
+          </div>
+        </div>
+        <div class="about-us__adress-card">
+          <iframe
+            class="about-us__adress-frame"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3049.1049213297347!2d-75.0450855!3d40.16221759999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6ad3725d3c965%3A0xc533df63ed834f9e!2sArena%20STEM%20Pennsylvania!5e0!3m2!1sru!2sru!4v1746279303562!5m2!1sru!2sru"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+    <section class="subscribe contact-us-info">
+      <div class="subscribe__container">
+        <h2 class="subscribe__title">Stay in the Loop with STEM!</h2>
+        <p class="subscribe__description">Be&nbsp;the first to&nbsp;know about new programs, exciting events, and special offers.<br>Subscribe to&nbsp;our newsletter and never miss an&nbsp;opportunity to&nbsp;spark your child&rsquo;s curiosity!</p>
+        <form class="subscribe__form" id="subscribeForm">
+          <div class="subscribe__form-input-container">
+            <input
+              class="subscribe__form-input"
+              type="text"
+              id="emailInput"
+              name="email"
+              placeholder="Enter your email"
+            >
+            <div id="errorMessage" class="subscribe__error-message"></div>
+          </div>
+          <button class="subscribe__form-button primary-button" type="submit">Subscribe</button>
+        </form>
+        <p class="subscribe__terms">By subscribing you agree to with our <a class="subscribe__terms-link" href="#">Privacy Policy.</a></p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__leftside">
+        <div class="footer__logo"></div>
+        <nav class="footer__columns">
+          <div class="footer__column">
+            <h4 class="footer__column-title">Education</h4>
+            <ul class="footer__column-links">
+              <li>
+                <a class="footer__column-link" href="#">STEM Explorer Program</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Lego Building & Coding</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Financial Literacy</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Chess</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Young Engineers</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Math in STEM</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Afterschool</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h4 class="footer__column-title">Entertainment</h4>
+            <ul class="footer__column-links">
+              <li>
+                <a class="footer__column-link" href="#">Entertainment Arena</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Events and Challenges</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Birthday Parties</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Summer Camp</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">School Trips & Youth Events</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h4 class="footer__column-title">About Us</h4>
+            <ul class="footer__column-links">
+              <li>
+                <a class="footer__column-link" href="#">About Arena STEM</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Pricing</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Testimonials</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Contacts</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Careers</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#">Gift Cards</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <h4 class="footer__column-title">Contact Us</h4>
+            <ul class="footer__column-links">
+              <li>
+                <span class="footer__column-links-label">Call Today</span>
+                <a href="tel:2673417176" class="footer__column-link">(267) 341-7176</a>
+              </li>
+              <li>
+                <span class="footer__column-links-label">Email Us</span>
+                <a href="mailto:hello@arenastemPA.com" class="footer__column-link">hello@arenastemPA.com</a>
+              </li>
+              <li>
+                <span class="footer__column-links-label">Location</span>
+                <a href="https://maps.app.goo.gl/4XrEkTyfEcR9T15j6" target="_blank" class="footer__column-link">950 Industrial Blvd, Southampton, PA</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <ul class="footer__rightside">
+        <li>
+          <a class="footer__rightside-link" href="https://www.facebook.com/profile.php?id=61551064730046" target="_blank">
+            <img src="./images/Facebook.svg" alt="Facebook icon" class="footer__rightside-icon">
+          </a>
+        </li>
+        <li>
+          <a class="footer__rightside-link" href="https://www.instagram.com/arenastem_pa/" target="_blank">
+            <img src="./images/Instagram.svg" alt="Instagram icon" class="footer__rightside-icon">
+          </a>
+        </li>
+      </ul>
+      <ul class="footer__bottom">
+        <li>
+          <p class="footer__bottom-title">© 2024 Arena STEM. All rights reserved.</p>
+        </li>
+        <li>
+          <a class="footer__bottom-link" href="#">Privacy Policy</a>
+        </li>
+        <li>
+          <a class="footer__bottom-link" href="#">Terms &amp;&nbsp;Conditions</a>
+        </li>
+        <li>
+          <a class="footer__bottom-link" href="#">Waiver</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
